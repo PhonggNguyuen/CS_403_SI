@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\This PC\\Desktop\\CNPM\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj": {}
   },
   "projects": {
-    "C:\\Users\\This PC\\Desktop\\CNPM\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\This PC\\Desktop\\CNPM\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
         "projectName": "ShopBanGiay.Module",
-        "projectPath": "C:\\Users\\This PC\\Desktop\\CNPM\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
-        "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\This PC\\Desktop\\CNPM\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\CNPM\\Components\\Offline Packages"
+          "C:\\Users\\ADMIN\\Desktop\\Components\\Offline Packages",
+          "C:\\Users\\ADMIN\\Desktop\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +29,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\CNPM\\Components\\System\\Components\\Packages": {},
+          "C:\\Users\\ADMIN\\Desktop\\Components\\System\\Components\\Packages": {},
+          "C:\\Users\\ADMIN\\Desktop\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
