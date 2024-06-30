@@ -121,5 +121,17 @@ namespace SHOP.Module.BusinessObjects
         {
             get { return GetCollection<OrderDetails>(nameof(OrderDetailss)); }
         }
+        [DevExpress.Xpo.Aggregated, Association("nhap")]
+        [XafDisplayName("Nhập")]
+        public XPCollection<HDNhapCT> HDNhapCTs
+        {
+            get { return GetCollection<HDNhapCT>(nameof(HDNhapCTs)); }
+        }
+        [DevExpress.Xpo.Aggregated, Association("xuat")]
+        [XafDisplayName("Xuất")]
+        public XPCollection<HDXuatCT> HDXuatCTs
+        {
+            get { return GetCollection<HDXuatCT>(nameof(HDXuatCTs)); }
+        }
     }
 }

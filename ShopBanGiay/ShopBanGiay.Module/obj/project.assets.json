@@ -46,165 +46,164 @@
           }
         }
       },
-      "DevExpress.Charts/24.1.3": {
+      "DevExpress.Charts/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Charts.Core": "[24.1.3]",
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.DataVisualization.Core": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
+          "DevExpress.Charts.Core": "[23.2.6]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.DataVisualization.Core": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.XtraCharts.v24.1.dll": {
+          "lib/net6.0/DevExpress.XtraCharts.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.XtraCharts.v24.1.dll": {
+          "lib/net6.0/DevExpress.XtraCharts.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Charts.Core/24.1.3": {
+      "DevExpress.Charts.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]"
+          "DevExpress.Data": "[23.2.6]"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Charts.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Charts.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Charts.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Charts.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.CodeParser/24.1.3": {
+      "DevExpress.CodeParser/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
           "System.CodeDom": "4.4.0"
         },
         "compile": {
-          "lib/net6.0/DevExpress.CodeParser.v24.1.dll": {}
+          "lib/net6.0/DevExpress.CodeParser.v23.2.dll": {}
         },
         "runtime": {
-          "lib/net6.0/DevExpress.CodeParser.v24.1.dll": {}
+          "lib/net6.0/DevExpress.CodeParser.v23.2.dll": {}
         }
       },
-      "DevExpress.Dashboard.Core/24.1.3": {
+      "DevExpress.Dashboard.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Charts": "[24.1.3]",
-          "DevExpress.Charts.Core": "[24.1.3]",
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.DataAccess": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Gauges.Core": "[24.1.3]",
-          "DevExpress.Map.Core": "[24.1.3]",
-          "DevExpress.Office.Core": "[24.1.3]",
-          "DevExpress.PivotGrid.Core": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
-          "DevExpress.Reporting.Core": "[24.1.3]",
-          "DevExpress.RichEdit.Core": "[24.1.3]",
-          "DevExpress.Sparkline.Core": "[24.1.3]",
-          "DevExpress.TreeMap": "[24.1.3]",
-          "DevExpress.TreeMap.Core": "[24.1.3]",
-          "DevExpress.Xpo": "[24.1.3]",
-          "Microsoft.CodeAnalysis.NetAnalyzers": "8.0.0",
+          "DevExpress.Charts": "[23.2.6]",
+          "DevExpress.Charts.Core": "[23.2.6]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.DataAccess": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Gauges.Core": "[23.2.6]",
+          "DevExpress.Map.Core": "[23.2.6]",
+          "DevExpress.Office.Core": "[23.2.6]",
+          "DevExpress.PivotGrid.Core": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
+          "DevExpress.Reporting.Core": "[23.2.6]",
+          "DevExpress.RichEdit.Core": "[23.2.6]",
+          "DevExpress.Sparkline.Core": "[23.2.6]",
+          "DevExpress.TreeMap": "[23.2.6]",
+          "DevExpress.TreeMap.Core": "[23.2.6]",
+          "DevExpress.Xpo": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Dashboard.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Dashboard.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Dashboard.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Dashboard.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Data/24.1.3": {
+      "DevExpress.Data/23.2.6": {
         "type": "package",
         "dependencies": {
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Data.v24.1.dll": {
+          "lib/net6.0/DevExpress.Data.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Data.v24.1.dll": {
+          "lib/net6.0/DevExpress.Data.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.DataAccess/24.1.3": {
+      "DevExpress.DataAccess/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.CodeParser": "[24.1.3]",
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Office.Core": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
-          "DevExpress.RichEdit.Core": "[24.1.3]",
-          "DevExpress.Xpo": "[24.1.3]",
+          "DevExpress.CodeParser": "[23.2.6]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Office.Core": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
+          "DevExpress.RichEdit.Core": "[23.2.6]",
+          "DevExpress.Xpo": "[23.2.6]",
           "System.Configuration.ConfigurationManager": "4.7.0",
           "System.Data.SqlClient": "4.8.6"
         },
         "compile": {
-          "lib/net6.0/DevExpress.DataAccess.v24.1.dll": {
+          "lib/net6.0/DevExpress.DataAccess.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.DataAccess.v24.1.dll": {
+          "lib/net6.0/DevExpress.DataAccess.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.DataVisualization.Core/24.1.3": {
+      "DevExpress.DataVisualization.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]"
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]"
         },
         "compile": {
-          "lib/net6.0/DevExpress.DataVisualization.v24.1.Core.dll": {}
+          "lib/net6.0/DevExpress.DataVisualization.v23.2.Core.dll": {}
         },
         "runtime": {
-          "lib/net6.0/DevExpress.DataVisualization.v24.1.Core.dll": {}
+          "lib/net6.0/DevExpress.DataVisualization.v23.2.Core.dll": {}
         }
       },
-      "DevExpress.Drawing/24.1.3": {
+      "DevExpress.Drawing/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Drawing.v24.1.dll": {
+          "lib/net6.0/DevExpress.Drawing.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Drawing.v24.1.dll": {
+          "lib/net6.0/DevExpress.Drawing.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp/24.1.3": {
+      "DevExpress.ExpressApp/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Images": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Images": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
           "Microsoft.CodeAnalysis.CSharp": "3.3.1",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
@@ -215,481 +214,476 @@
           "System.Resources.Extensions": "6.0.0",
           "System.Security.Cryptography.Pkcs": "6.0.3",
           "System.Security.Cryptography.Xml": "6.0.1",
-          "System.ServiceModel.Primitives": "6.2.0"
+          "System.ServiceModel.Primitives": "4.10.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp.CodeAnalysis/24.1.3": {
+      "DevExpress.ExpressApp.CodeAnalysis/23.2.6": {
         "type": "package"
       },
-      "DevExpress.ExpressApp.ConditionalAppearance/24.1.3": {
+      "DevExpress.ExpressApp.ConditionalAppearance/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
-          "DevExpress.Persistent.Base": "[24.1.3]"
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
+          "DevExpress.Persistent.Base": "[23.2.6]"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.ConditionalAppearance.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.ConditionalAppearance.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp.Dashboards/24.1.3": {
+      "DevExpress.ExpressApp.Dashboards/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Dashboard.Core": "[24.1.3]",
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.DataAccess": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
-          "DevExpress.Persistent.Base": "[24.1.3]"
+          "DevExpress.Dashboard.Core": "[23.2.6]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.DataAccess": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
+          "DevExpress.Persistent.Base": "[23.2.6]"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.Dashboards.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Dashboards.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.Dashboards.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Dashboards.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp.Objects/24.1.3": {
+      "DevExpress.ExpressApp.Objects/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
           "System.Security.Cryptography.Xml": "6.0.1"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.Objects.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Objects.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.Objects.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Objects.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp.Office/24.1.3": {
+      "DevExpress.ExpressApp.Office/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
-          "DevExpress.Office.Core": "[24.1.3]",
-          "DevExpress.Persistent.Base": "[24.1.3]",
-          "DevExpress.RichEdit.Core": "[24.1.3]",
-          "DevExpress.Spreadsheet.Core": "[24.1.3]"
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
+          "DevExpress.Office.Core": "[23.2.6]",
+          "DevExpress.Persistent.Base": "[23.2.6]",
+          "DevExpress.RichEdit.Core": "[23.2.6]",
+          "DevExpress.Spreadsheet.Core": "[23.2.6]"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.Office.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Office.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.Office.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Office.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp.ReportsV2/24.1.3": {
+      "DevExpress.ExpressApp.ReportsV2/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
-          "DevExpress.Persistent.Base": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
-          "DevExpress.Reporting.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
+          "DevExpress.Persistent.Base": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
+          "DevExpress.Reporting.Core": "[23.2.6]",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.ReportsV2.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.ReportsV2.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.ReportsV2.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.ReportsV2.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp.Scheduler/24.1.3": {
+      "DevExpress.ExpressApp.Scheduler/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
-          "DevExpress.Persistent.Base": "[24.1.3]",
-          "DevExpress.Scheduler.Core": "[24.1.3]"
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
+          "DevExpress.Persistent.Base": "[23.2.6]",
+          "DevExpress.Scheduler.Core": "[23.2.6]"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.Scheduler.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Scheduler.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.Scheduler.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Scheduler.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp.Security/24.1.3": {
+      "DevExpress.ExpressApp.Security/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
-          "DevExpress.Persistent.Base": "[24.1.3]",
-          "MessagePack": "2.5.140",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
+          "DevExpress.Persistent.Base": "[23.2.6]",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "System.Security.Permissions": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.Security.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Security.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.Security.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Security.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp.Security.Xpo/24.1.3": {
+      "DevExpress.ExpressApp.Security.Xpo/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
-          "DevExpress.ExpressApp.Security": "[24.1.3]",
-          "DevExpress.ExpressApp.Xpo": "[24.1.3]",
-          "DevExpress.Persistent.Base": "[24.1.3]",
-          "DevExpress.Xpo": "[24.1.3]",
-          "MessagePack": "2.5.140",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
+          "DevExpress.ExpressApp.Security": "[23.2.6]",
+          "DevExpress.ExpressApp.Xpo": "[23.2.6]",
+          "DevExpress.Persistent.Base": "[23.2.6]",
+          "DevExpress.Xpo": "[23.2.6]",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
-          "System.ServiceModel.Http": "6.2.0",
-          "System.ServiceModel.NetTcp": "6.2.0"
+          "System.ServiceModel.Http": "4.10.2",
+          "System.ServiceModel.NetTcp": "4.6.0"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.Security.Xpo.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Security.Xpo.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.Security.Xpo.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Security.Xpo.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp.Validation/24.1.3": {
+      "DevExpress.ExpressApp.Validation/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
-          "DevExpress.Persistent.Base": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
+          "DevExpress.Persistent.Base": "[23.2.6]",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "System.Drawing.Common": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.Validation.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Validation.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.Validation.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Validation.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp.ViewVariantsModule/24.1.3": {
+      "DevExpress.ExpressApp.ViewVariantsModule/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
           "System.Security.Cryptography.Xml": "6.0.1"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.ViewVariantsModule.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.ViewVariantsModule.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.ViewVariantsModule.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.ViewVariantsModule.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.ExpressApp.Xpo/24.1.3": {
+      "DevExpress.ExpressApp.Xpo/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
-          "DevExpress.Xpo": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
+          "DevExpress.Xpo": "[23.2.6]",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "System.Drawing.Common": "6.0.0",
           "System.Security.Permissions": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/DevExpress.ExpressApp.Xpo.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Xpo.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.ExpressApp.Xpo.v24.1.dll": {
+          "lib/net6.0/DevExpress.ExpressApp.Xpo.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Gauges.Core/24.1.3": {
+      "DevExpress.Gauges.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.XtraGauges.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.XtraGauges.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.XtraGauges.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.XtraGauges.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Images/24.1.3": {
+      "DevExpress.Images/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Images.v24.1.dll": {}
+          "lib/net6.0/DevExpress.Images.v23.2.dll": {}
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Images.v24.1.dll": {}
+          "lib/net6.0/DevExpress.Images.v23.2.dll": {}
         }
       },
-      "DevExpress.Map.Core/24.1.3": {
+      "DevExpress.Map.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Map.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Map.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Map.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Map.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Office.Core/24.1.3": {
+      "DevExpress.Office.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Pdf.Core": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Pdf.Core": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
           "System.Drawing.Common": "4.7.2",
           "System.Security.Cryptography.Xml": "6.0.1"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Office.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Office.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Office.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Office.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Pdf.Core/24.1.3": {
+      "DevExpress.Pdf.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "Microsoft.CodeAnalysis.NetAnalyzers": "8.0.0",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
           "System.Drawing.Common": "4.7.2",
           "System.Security.Cryptography.Pkcs": "6.0.3"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Pdf.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Pdf.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Pdf.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Pdf.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Pdf.Drawing/24.1.3": {
+      "DevExpress.Pdf.Drawing/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Pdf.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Pdf.Core": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Pdf.v24.1.Drawing.dll": {
+          "lib/net6.0/DevExpress.Pdf.v23.2.Drawing.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Pdf.v24.1.Drawing.dll": {
+          "lib/net6.0/DevExpress.Pdf.v23.2.Drawing.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Persistent.Base/24.1.3": {
+      "DevExpress.Persistent.Base/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.DataAccess": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.DataAccess": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Persistent.Base.v24.1.dll": {
+          "lib/net6.0/DevExpress.Persistent.Base.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Persistent.Base.v24.1.dll": {
+          "lib/net6.0/DevExpress.Persistent.Base.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Persistent.BaseImpl.Xpo/24.1.3": {
+      "DevExpress.Persistent.BaseImpl.Xpo/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.ExpressApp": "[24.1.3]",
-          "DevExpress.ExpressApp.Objects": "[24.1.3]",
-          "DevExpress.ExpressApp.Xpo": "[24.1.3]",
-          "DevExpress.Persistent.Base": "[24.1.3]",
-          "DevExpress.Scheduler.Core": "[24.1.3]",
-          "DevExpress.Xpo": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.ExpressApp": "[23.2.6]",
+          "DevExpress.ExpressApp.Objects": "[23.2.6]",
+          "DevExpress.ExpressApp.Xpo": "[23.2.6]",
+          "DevExpress.Persistent.Base": "[23.2.6]",
+          "DevExpress.Scheduler.Core": "[23.2.6]",
+          "DevExpress.Xpo": "[23.2.6]",
           "Microsoft.Extensions.Options": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll": {
+          "lib/net6.0/DevExpress.Persistent.BaseImpl.Xpo.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll": {
+          "lib/net6.0/DevExpress.Persistent.BaseImpl.Xpo.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.PivotGrid.Core/24.1.3": {
+      "DevExpress.PivotGrid.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.PivotGrid.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.PivotGrid.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.PivotGrid.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.PivotGrid.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Printing.Core/24.1.3": {
+      "DevExpress.Printing.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Pdf.Core": "[24.1.3]",
-          "DevExpress.Pdf.Drawing": "[24.1.3]",
-          "Microsoft.CodeAnalysis.NetAnalyzers": "8.0.0",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Pdf.Core": "[23.2.6]",
+          "DevExpress.Pdf.Drawing": "[23.2.6]",
           "System.Drawing.Common": "4.7.2",
-          "System.Security.Cryptography.Pkcs": "6.0.3",
-          "System.ServiceModel.Http": "6.2.0"
+          "System.ServiceModel.Http": "4.10.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Printing.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Printing.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Printing.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Printing.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Reporting.Core/24.1.3": {
+      "DevExpress.Reporting.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Charts": "[24.1.3]",
-          "DevExpress.Charts.Core": "[24.1.3]",
-          "DevExpress.CodeParser": "[24.1.3]",
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.DataAccess": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Gauges.Core": "[24.1.3]",
-          "DevExpress.Office.Core": "[24.1.3]",
-          "DevExpress.Pdf.Core": "[24.1.3]",
-          "DevExpress.Pdf.Drawing": "[24.1.3]",
-          "DevExpress.PivotGrid.Core": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
-          "DevExpress.RichEdit.Core": "[24.1.3]",
-          "DevExpress.RichEdit.Export": "[24.1.3]",
-          "DevExpress.Sparkline.Core": "[24.1.3]",
-          "DevExpress.Xpo": "[24.1.3]",
+          "DevExpress.Charts": "[23.2.6]",
+          "DevExpress.Charts.Core": "[23.2.6]",
+          "DevExpress.CodeParser": "[23.2.6]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.DataAccess": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Gauges.Core": "[23.2.6]",
+          "DevExpress.Office.Core": "[23.2.6]",
+          "DevExpress.Pdf.Core": "[23.2.6]",
+          "DevExpress.Pdf.Drawing": "[23.2.6]",
+          "DevExpress.PivotGrid.Core": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
+          "DevExpress.RichEdit.Core": "[23.2.6]",
+          "DevExpress.RichEdit.Export": "[23.2.6]",
+          "DevExpress.Sparkline.Core": "[23.2.6]",
+          "DevExpress.Xpo": "[23.2.6]",
           "System.CodeDom": "4.4.0",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.XtraReports.v24.1.dll": {
+          "lib/net6.0/DevExpress.XtraReports.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.XtraReports.v24.1.dll": {
+          "lib/net6.0/DevExpress.XtraReports.v23.2.dll": {
             "related": ".xml"
           }
         },
@@ -700,197 +694,169 @@
           "buildMultiTargeting/DevExpress.Reporting.Core.targets": {}
         }
       },
-      "DevExpress.RichEdit.Core/24.1.3": {
+      "DevExpress.RichEdit.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Office.Core": "[24.1.3]",
-          "DevExpress.Pdf.Core": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Office.Core": "[23.2.6]",
+          "DevExpress.Pdf.Core": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.RichEdit.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.RichEdit.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.RichEdit.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.RichEdit.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.RichEdit.Export/24.1.3": {
+      "DevExpress.RichEdit.Export/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Office.Core": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
-          "DevExpress.RichEdit.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Office.Core": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
+          "DevExpress.RichEdit.Core": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.RichEdit.v24.1.Export.dll": {}
+          "lib/net6.0/DevExpress.RichEdit.v23.2.Export.dll": {}
         },
         "runtime": {
-          "lib/net6.0/DevExpress.RichEdit.v24.1.Export.dll": {}
+          "lib/net6.0/DevExpress.RichEdit.v23.2.Export.dll": {}
         }
       },
-      "DevExpress.Scheduler.Core/24.1.3": {
+      "DevExpress.Scheduler.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.XtraScheduler.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.XtraScheduler.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.XtraScheduler.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.XtraScheduler.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Sparkline.Core/24.1.3": {
+      "DevExpress.Sparkline.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Sparkline.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Sparkline.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Sparkline.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Sparkline.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Spreadsheet.Core/24.1.3": {
+      "DevExpress.Spreadsheet.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.DataAccess": "[24.1.3]",
-          "DevExpress.DataVisualization.Core": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Office.Core": "[24.1.3]",
-          "DevExpress.Pdf.Core": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
-          "DevExpress.Sparkline.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.DataAccess": "[23.2.6]",
+          "DevExpress.DataVisualization.Core": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Office.Core": "[23.2.6]",
+          "DevExpress.Pdf.Core": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
+          "DevExpress.Sparkline.Core": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Spreadsheet.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Spreadsheet.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Spreadsheet.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.Spreadsheet.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.TreeMap/24.1.3": {
+      "DevExpress.TreeMap/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "DevExpress.DataVisualization.Core": "[24.1.3]",
-          "DevExpress.Drawing": "[24.1.3]",
-          "DevExpress.Printing.Core": "[24.1.3]",
-          "DevExpress.TreeMap.Core": "[24.1.3]",
+          "DevExpress.Data": "[23.2.6]",
+          "DevExpress.DataVisualization.Core": "[23.2.6]",
+          "DevExpress.Drawing": "[23.2.6]",
+          "DevExpress.Printing.Core": "[23.2.6]",
+          "DevExpress.TreeMap.Core": "[23.2.6]",
           "System.Drawing.Common": "4.7.2"
         },
         "compile": {
-          "lib/net6.0/DevExpress.XtraTreeMap.v24.1.dll": {
+          "lib/net6.0/DevExpress.XtraTreeMap.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.XtraTreeMap.v24.1.dll": {
+          "lib/net6.0/DevExpress.XtraTreeMap.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.TreeMap.Core/24.1.3": {
+      "DevExpress.TreeMap.Core/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]"
+          "DevExpress.Data": "[23.2.6]"
         },
         "compile": {
-          "lib/net6.0/DevExpress.TreeMap.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.TreeMap.v23.2.Core.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.TreeMap.v24.1.Core.dll": {
+          "lib/net6.0/DevExpress.TreeMap.v23.2.Core.dll": {
             "related": ".xml"
           }
         }
       },
-      "DevExpress.Xpo/24.1.3": {
+      "DevExpress.Xpo/23.2.6": {
         "type": "package",
         "dependencies": {
-          "DevExpress.Data": "[24.1.3]",
-          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "DevExpress.Data": "[23.2.6]",
+          "Microsoft.Extensions.DependencyInjection": "2.0.0",
           "System.Data.SqlClient": "4.8.6",
           "System.Drawing.Common": "4.7.2",
           "System.Security.Cryptography.Pkcs": "6.0.3",
-          "System.ServiceModel.Http": "6.2.0",
-          "System.ServiceModel.NetTcp": "6.2.0"
+          "System.ServiceModel.Http": "4.10.2",
+          "System.ServiceModel.NetTcp": "4.4.4",
+          "System.ServiceModel.Security": "4.4.4"
         },
         "compile": {
-          "lib/net6.0/DevExpress.Xpo.v24.1.dll": {
+          "lib/net6.0/DevExpress.Xpo.v23.2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DevExpress.Xpo.v24.1.dll": {
+          "lib/net6.0/DevExpress.Xpo.v23.2.dll": {
             "related": ".xml"
           }
         }
       },
-      "MessagePack/2.5.140": {
-        "type": "package",
-        "dependencies": {
-          "MessagePack.Annotations": "2.5.140",
-          "Microsoft.NET.StringTools": "17.6.3",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        },
-        "compile": {
-          "lib/net6.0/MessagePack.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/MessagePack.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "MessagePack.Annotations/2.5.140": {
+      "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
-        },
-        "runtime": {
-          "lib/netstandard2.0/MessagePack.Annotations.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -1024,13 +990,6 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.NetAnalyzers/8.0.0": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Microsoft.CodeAnalysis.NetAnalyzers.props": {},
-          "buildTransitive/Microsoft.CodeAnalysis.NetAnalyzers.targets": {}
-        }
-      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -1056,24 +1015,20 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "Microsoft.Extensions.DependencyInjection/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
@@ -1092,15 +1047,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.ObjectPool/6.0.16": {
+      "Microsoft.Extensions.ObjectPool/5.0.10": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.ObjectPool.dll": {
+          "lib/net5.0/Microsoft.Extensions.ObjectPool.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.ObjectPool.dll": {
+          "lib/net5.0/Microsoft.Extensions.ObjectPool.dll": {
             "related": ".xml"
           }
         }
@@ -1238,19 +1193,6 @@
         "runtime": {
           "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.NET.StringTools/17.6.3": {
-        "type": "package",
-        "compile": {
-          "ref/net7.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.NET.StringTools.dll": {
-            "related": ".pdb;.xml"
           }
         }
       },
@@ -1589,6 +1531,79 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "System.Private.ServiceModel/4.10.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
+          "Microsoft.Extensions.ObjectPool": "5.0.10",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Reflection.DispatchProxy": "4.7.1",
+          "System.Security.Cryptography.Xml": "6.0.1",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Private.ServiceModel.dll": {
+            "related": ".pdb"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.0/cs/System.Private.ServiceModel.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/System.Private.ServiceModel.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/System.Private.ServiceModel.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/System.Private.ServiceModel.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/System.Private.ServiceModel.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/System.Private.ServiceModel.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/System.Private.ServiceModel.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/System.Private.ServiceModel.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/System.Private.ServiceModel.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/System.Private.ServiceModel.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/System.Private.ServiceModel.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/System.Private.ServiceModel.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/System.Private.ServiceModel.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.Reflection.DispatchProxy/4.7.1": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Reflection.DispatchProxy.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Reflection.Metadata/1.6.0": {
         "type": "package",
         "compile": {
@@ -1795,228 +1810,65 @@
           }
         }
       },
-      "System.ServiceModel.Http/6.2.0": {
+      "System.ServiceModel.Http/4.10.2": {
         "type": "package",
         "dependencies": {
-          "System.ServiceModel.Primitives": "6.2.0"
+          "System.Private.ServiceModel": "4.10.2",
+          "System.ServiceModel.Primitives": "4.10.2"
         },
         "compile": {
-          "lib/net6.0/System.ServiceModel.Http.dll": {
-            "related": ".pdb"
-          }
+          "ref/net6.0/System.ServiceModel.Http.dll": {}
         },
         "runtime": {
           "lib/net6.0/System.ServiceModel.Http.dll": {
             "related": ".pdb"
           }
-        },
-        "resource": {
-          "lib/net6.0/cs/System.ServiceModel.Http.resources.dll": {
-            "locale": "cs"
-          },
-          "lib/net6.0/de/System.ServiceModel.Http.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net6.0/es/System.ServiceModel.Http.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net6.0/fr/System.ServiceModel.Http.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net6.0/it/System.ServiceModel.Http.resources.dll": {
-            "locale": "it"
-          },
-          "lib/net6.0/ja/System.ServiceModel.Http.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net6.0/ko/System.ServiceModel.Http.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net6.0/pl/System.ServiceModel.Http.resources.dll": {
-            "locale": "pl"
-          },
-          "lib/net6.0/pt-BR/System.ServiceModel.Http.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net6.0/ru/System.ServiceModel.Http.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net6.0/tr/System.ServiceModel.Http.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net6.0/zh-Hans/System.ServiceModel.Http.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/net6.0/zh-Hant/System.ServiceModel.Http.resources.dll": {
-            "locale": "zh-Hant"
-          }
         }
       },
-      "System.ServiceModel.NetFramingBase/6.2.0": {
+      "System.ServiceModel.NetTcp/4.6.0": {
         "type": "package",
         "dependencies": {
-          "System.ServiceModel.Primitives": "6.2.0"
+          "System.Private.ServiceModel": "4.6.0",
+          "System.ServiceModel.Primitives": "4.6.0"
         },
         "compile": {
-          "lib/net6.0/System.ServiceModel.NetFramingBase.dll": {}
+          "ref/netstandard2.0/System.ServiceModel.NetTcp.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.ServiceModel.NetFramingBase.dll": {}
-        },
-        "resource": {
-          "lib/net6.0/cs/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "cs"
-          },
-          "lib/net6.0/de/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net6.0/es/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net6.0/fr/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net6.0/it/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "it"
-          },
-          "lib/net6.0/ja/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net6.0/ko/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net6.0/pl/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "pl"
-          },
-          "lib/net6.0/pt-BR/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net6.0/ru/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net6.0/tr/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net6.0/zh-Hans/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/net6.0/zh-Hant/System.ServiceModel.NetFramingBase.resources.dll": {
-            "locale": "zh-Hant"
+          "lib/netstandard2.0/System.ServiceModel.NetTcp.dll": {
+            "related": ".pdb"
           }
         }
       },
-      "System.ServiceModel.NetTcp/6.2.0": {
+      "System.ServiceModel.Primitives/4.10.2": {
         "type": "package",
         "dependencies": {
-          "System.ServiceModel.NetFramingBase": "6.2.0",
-          "System.ServiceModel.Primitives": "6.2.0"
+          "System.Private.ServiceModel": "4.10.2"
         },
         "compile": {
-          "lib/net6.0/System.ServiceModel.NetTcp.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.NetTcp.dll": {
-            "related": ".pdb"
-          }
-        },
-        "resource": {
-          "lib/net6.0/cs/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "cs"
-          },
-          "lib/net6.0/de/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net6.0/es/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net6.0/fr/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net6.0/it/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "it"
-          },
-          "lib/net6.0/ja/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net6.0/ko/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net6.0/pl/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "pl"
-          },
-          "lib/net6.0/pt-BR/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net6.0/ru/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net6.0/tr/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net6.0/zh-Hans/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/net6.0/zh-Hant/System.ServiceModel.NetTcp.resources.dll": {
-            "locale": "zh-Hant"
-          }
-        }
-      },
-      "System.ServiceModel.Primitives/6.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.ObjectPool": "6.0.16",
-          "System.Security.Cryptography.Xml": "6.0.1"
-        },
-        "compile": {
-          "ref/net6.0/System.ServiceModel.Primitives.dll": {}
+          "ref/net6.0/System.ServiceModel.Primitives.dll": {},
+          "ref/net6.0/System.ServiceModel.dll": {}
         },
         "runtime": {
           "lib/net6.0/System.ServiceModel.Primitives.dll": {
             "related": ".pdb"
+          },
+          "lib/net6.0/System.ServiceModel.dll": {
+            "related": ".Primitives.pdb"
           }
+        }
+      },
+      "System.ServiceModel.Security/4.4.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Private.ServiceModel": "4.4.4",
+          "System.ServiceModel.Primitives": "4.4.4"
         },
-        "resource": {
-          "lib/net6.0/cs/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "cs"
-          },
-          "lib/net6.0/de/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net6.0/es/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net6.0/fr/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net6.0/it/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "it"
-          },
-          "lib/net6.0/ja/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net6.0/ko/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net6.0/pl/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "pl"
-          },
-          "lib/net6.0/pt-BR/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net6.0/ru/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net6.0/tr/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net6.0/zh-Hans/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/net6.0/zh-Hant/System.ServiceModel.Primitives.resources.dll": {
-            "locale": "zh-Hant"
-          }
+        "compile": {
+          "ref/netstandard2.0/System.ServiceModel.Security.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Security.dll": {}
         }
       },
       "System.Text.Encoding/4.3.0": {
@@ -2153,643 +2005,615 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "DevExpress.Charts/24.1.3": {
-      "sha512": "unJK3MC5rynDnZtZ5jRIJO7UvZ2oCiChsu07bsnUF0F1L71QDf5r8WsBWprV6XOu9XoDkXthcZb0I2ZoI9IxuA==",
+    "DevExpress.Charts/23.2.6": {
+      "sha512": "AyOt1TvNQluB/S0UiH/OYlilHd3nR2k4cJsOjCjXbd2Fj6BSORD8Yzc8FSsRM+3NVbDaQ//NJgCmhUeMHg9Q8w==",
       "type": "package",
-      "path": "devexpress.charts/24.1.3",
+      "path": "devexpress.charts/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.charts.24.1.3.nupkg.sha512",
+        "devexpress.charts.23.2.6.nupkg.sha512",
         "devexpress.charts.nuspec",
-        "lib/net452/DevExpress.XtraCharts.v24.1.dll",
-        "lib/net452/DevExpress.XtraCharts.v24.1.xml",
-        "lib/net6.0/DevExpress.XtraCharts.v24.1.dll",
-        "lib/net6.0/DevExpress.XtraCharts.v24.1.xml"
+        "lib/net452/DevExpress.XtraCharts.v23.2.dll",
+        "lib/net452/DevExpress.XtraCharts.v23.2.xml",
+        "lib/net6.0/DevExpress.XtraCharts.v23.2.dll",
+        "lib/net6.0/DevExpress.XtraCharts.v23.2.xml"
       ]
     },
-    "DevExpress.Charts.Core/24.1.3": {
-      "sha512": "JUlmxryeF37zDbAUTt06Rb2OT107T2YaSQgI3vzsz3xHu2psmMUUkp3sgWxDab1AkTy1RIYvAlGl93ZDfUHFZg==",
+    "DevExpress.Charts.Core/23.2.6": {
+      "sha512": "TIOcjXAE5bV5EDlacBzI6KHZotTvZZZtSaJnkoMire+yB3/3JZkXG1hXJC5QJYoxRRCoJSpIDXPy8OF8RWNqfg==",
       "type": "package",
-      "path": "devexpress.charts.core/24.1.3",
+      "path": "devexpress.charts.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.charts.core.24.1.3.nupkg.sha512",
+        "devexpress.charts.core.23.2.6.nupkg.sha512",
         "devexpress.charts.core.nuspec",
-        "lib/net452/DevExpress.Charts.v24.1.Core.dll",
-        "lib/net452/DevExpress.Charts.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.Charts.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.Charts.v24.1.Core.xml"
+        "lib/net452/DevExpress.Charts.v23.2.Core.dll",
+        "lib/net452/DevExpress.Charts.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.Charts.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.Charts.v23.2.Core.xml"
       ]
     },
-    "DevExpress.CodeParser/24.1.3": {
-      "sha512": "8CqpwS6Xt0xjTQvdAa4YGIfTzuub1qFepUeWNq/3iVcehmZIjAt9nJCEcUfI5yIwj2IvTtJg32DlR46PBsPXBQ==",
+    "DevExpress.CodeParser/23.2.6": {
+      "sha512": "mET1o/MclkZqKSGfUGItOrQDaJTeN/mTlBL8AHDm47INjbcELp2Ll7IAERzBTa2Wv3u4fsK0DxT48VJE7hV00w==",
       "type": "package",
-      "path": "devexpress.codeparser/24.1.3",
+      "path": "devexpress.codeparser/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.codeparser.24.1.3.nupkg.sha512",
+        "devexpress.codeparser.23.2.6.nupkg.sha512",
         "devexpress.codeparser.nuspec",
-        "lib/net452/DevExpress.CodeParser.v24.1.dll",
-        "lib/net6.0/DevExpress.CodeParser.v24.1.dll"
+        "lib/net452/DevExpress.CodeParser.v23.2.dll",
+        "lib/net6.0/DevExpress.CodeParser.v23.2.dll"
       ]
     },
-    "DevExpress.Dashboard.Core/24.1.3": {
-      "sha512": "vCQHdIot+GoRamtvB5ZnVKJd0xNJ98aYwkvdmTZJF2hqECcZChElKv9zkDl0wXjLo8p4GKeBmiztOFxsc5iegQ==",
+    "DevExpress.Dashboard.Core/23.2.6": {
+      "sha512": "VuXgrS32uMksNYsCrhqYGhibkg8Y/SU82LRmSTqCT3gX5d3j4YnPeTTafihYAuV9WIpnStwaWfAO8guH9muuGg==",
       "type": "package",
-      "path": "devexpress.dashboard.core/24.1.3",
+      "path": "devexpress.dashboard.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.dashboard.core.24.1.3.nupkg.sha512",
+        "devexpress.dashboard.core.23.2.6.nupkg.sha512",
         "devexpress.dashboard.core.nuspec",
-        "lib/net452/DevExpress.Dashboard.v24.1.Core.dll",
-        "lib/net452/DevExpress.Dashboard.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.Dashboard.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.Dashboard.v24.1.Core.xml"
+        "lib/net452/DevExpress.Dashboard.v23.2.Core.dll",
+        "lib/net452/DevExpress.Dashboard.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.Dashboard.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.Dashboard.v23.2.Core.xml"
       ]
     },
-    "DevExpress.Data/24.1.3": {
-      "sha512": "v79f+FzE3vqoq79NGbXbyvh+4bcAXkRONV63whkY93nd+UU/nuQ27VuzPm1qd/Yx7ImGBTLDqBx3FKVkg/7rGw==",
+    "DevExpress.Data/23.2.6": {
+      "sha512": "nF8PRUcabmVzrIGsegbD/8w6tqQ7z4+1Rch6FBTU7rgyw1yj+fLDpdu6VlwbtQqhNAuPOaBr3FRSSmhOlQQrlw==",
       "type": "package",
-      "path": "devexpress.data/24.1.3",
+      "path": "devexpress.data/23.2.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/DevExpress.Generator.dll",
         "analyzers/dotnet/cs/DevExpress.Generator.dll.DFX",
-        "devexpress.data.24.1.3.nupkg.sha512",
+        "devexpress.data.23.2.6.nupkg.sha512",
         "devexpress.data.nuspec",
-        "lib/net452/DevExpress.Data.v24.1.dll",
-        "lib/net452/DevExpress.Data.v24.1.xml",
-        "lib/net6.0/DevExpress.Data.v24.1.dll",
-        "lib/net6.0/DevExpress.Data.v24.1.xml",
+        "lib/net452/DevExpress.Data.v23.2.dll",
+        "lib/net452/DevExpress.Data.v23.2.xml",
+        "lib/net6.0/DevExpress.Data.v23.2.dll",
+        "lib/net6.0/DevExpress.Data.v23.2.xml",
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "DevExpress.DataAccess/24.1.3": {
-      "sha512": "5LtixkGDJhKyi1rPdECgv8JhSCzF5zrAwsfPHxbWoIZetX0ifa+6PfCPQkJRIduw1Y/HMedQRI1KZ9yVRacDDg==",
+    "DevExpress.DataAccess/23.2.6": {
+      "sha512": "7Ni1x9LzoXHa30YyfiSqFFLSAexY8Pblt96yGCYPQV64z4v6u+ELRpnG1Zs6PJrfK5jE2kUg/KeA4fzFQKztRg==",
       "type": "package",
-      "path": "devexpress.dataaccess/24.1.3",
+      "path": "devexpress.dataaccess/23.2.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.dataaccess.24.1.3.nupkg.sha512",
+        "devexpress.dataaccess.23.2.6.nupkg.sha512",
         "devexpress.dataaccess.nuspec",
-        "lib/net452/DevExpress.DataAccess.v24.1.dll",
-        "lib/net452/DevExpress.DataAccess.v24.1.xml",
-        "lib/net6.0/DevExpress.DataAccess.v24.1.dll",
-        "lib/net6.0/DevExpress.DataAccess.v24.1.xml",
+        "lib/net452/DevExpress.DataAccess.v23.2.dll",
+        "lib/net452/DevExpress.DataAccess.v23.2.xml",
+        "lib/net6.0/DevExpress.DataAccess.v23.2.dll",
+        "lib/net6.0/DevExpress.DataAccess.v23.2.xml",
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "DevExpress.DataVisualization.Core/24.1.3": {
-      "sha512": "6HhdenpXLHTQN1pFkwHyeyEA2LEofsIzjwdcRHWydzwjXCBd2Ah1zO8NyCV76WPQX+JBVdBLPXCxmawIrUuRKQ==",
+    "DevExpress.DataVisualization.Core/23.2.6": {
+      "sha512": "Cpj0KgXwd9xp8bD3VFRzzP78pR2ar8GDPqTsu7F3bfkotToua/7Vzs0X8Fui6qCmIZ02GfV9Scb/DjEbbKUrxw==",
       "type": "package",
-      "path": "devexpress.datavisualization.core/24.1.3",
+      "path": "devexpress.datavisualization.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.datavisualization.core.24.1.3.nupkg.sha512",
+        "devexpress.datavisualization.core.23.2.6.nupkg.sha512",
         "devexpress.datavisualization.core.nuspec",
-        "lib/net452/DevExpress.DataVisualization.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.DataVisualization.v24.1.Core.dll"
+        "lib/net452/DevExpress.DataVisualization.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.DataVisualization.v23.2.Core.dll"
       ]
     },
-    "DevExpress.Drawing/24.1.3": {
-      "sha512": "2Fs6D5YIpi0hlpjNUYdwY/56iJSrVZKkPmj6EghSmVOUXrpS4sWYcoStUpeJbKbhN0u+jbOirsWGxudwK97JiQ==",
+    "DevExpress.Drawing/23.2.6": {
+      "sha512": "pbnJ7f/aHs4pDdZzxSqXbv/HmcvH2kVRRtDySME31nhxWjC47EO1MOW8/wW11cNHlHfhKpx+K7xex+C6PCWxGA==",
       "type": "package",
-      "path": "devexpress.drawing/24.1.3",
+      "path": "devexpress.drawing/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.drawing.24.1.3.nupkg.sha512",
+        "devexpress.drawing.23.2.6.nupkg.sha512",
         "devexpress.drawing.nuspec",
-        "lib/net452/DevExpress.Drawing.v24.1.dll",
-        "lib/net452/DevExpress.Drawing.v24.1.xml",
-        "lib/net6.0/DevExpress.Drawing.v24.1.dll",
-        "lib/net6.0/DevExpress.Drawing.v24.1.xml"
+        "lib/net452/DevExpress.Drawing.v23.2.dll",
+        "lib/net452/DevExpress.Drawing.v23.2.xml",
+        "lib/net6.0/DevExpress.Drawing.v23.2.dll",
+        "lib/net6.0/DevExpress.Drawing.v23.2.xml"
       ]
     },
-    "DevExpress.ExpressApp/24.1.3": {
-      "sha512": "56Ud6G+a+CXRdX+I9n/KklY74hto/kTjCFGmI+IVuDJbiy1mddP/cr+g0922/4XDjVnXFM2zoPPUag9mMCCmHA==",
+    "DevExpress.ExpressApp/23.2.6": {
+      "sha512": "OfPTA7qcBOyQc3qjtsHcp35zASYxdsMSu+1Ocg1E8YhXq3IlwxNZ+oI9utUiMs9OyyJrpfPNFVilL4EtbN7lSA==",
       "type": "package",
-      "path": "devexpress.expressapp/24.1.3",
+      "path": "devexpress.expressapp/23.2.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.23.2.6.nupkg.sha512",
         "devexpress.expressapp.nuspec",
-        "lib/net452/DevExpress.ExpressApp.v24.1.dll",
-        "lib/net452/DevExpress.ExpressApp.v24.1.xml",
-        "lib/net6.0/DevExpress.ExpressApp.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.v24.1.xml",
+        "lib/net452/DevExpress.ExpressApp.v23.2.dll",
+        "lib/net452/DevExpress.ExpressApp.v23.2.xml",
+        "lib/net6.0/DevExpress.ExpressApp.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.v23.2.xml",
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "DevExpress.ExpressApp.CodeAnalysis/24.1.3": {
-      "sha512": "J37CgeiPTF7R7bfIUeETI5zA7mg1RqrzvY8JOkio+uhpt67FEvAzABMcFnST+nAZsM8SBGYDHTC9M62R7H1rcQ==",
+    "DevExpress.ExpressApp.CodeAnalysis/23.2.6": {
+      "sha512": "/sp/D+jeYeFo5LKNV2r76vgcMMbnXU2pUCCo3lwz+4o2eMnNFWABJVLzM3wGfRoA2YIi+YSEYEUhkjNLQ0naBw==",
       "type": "package",
-      "path": "devexpress.expressapp.codeanalysis/24.1.3",
+      "path": "devexpress.expressapp.codeanalysis/23.2.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "analyzers/dotnet/cs/DevExpress.ExpressApp.CodeAnalysis.v24.1.dll",
-        "devexpress.expressapp.codeanalysis.24.1.3.nupkg.sha512",
+        "analyzers/dotnet/cs/DevExpress.ExpressApp.CodeAnalysis.v23.2.dll",
+        "devexpress.expressapp.codeanalysis.23.2.6.nupkg.sha512",
         "devexpress.expressapp.codeanalysis.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
     },
-    "DevExpress.ExpressApp.ConditionalAppearance/24.1.3": {
-      "sha512": "LKf40hmvMqixdncRHtE53wiaD3nO8msJkj5SGf+v4I/PSuE7E5dBCK3LUghV43u3LtbqF3hgtw+HwqcZv9ON4g==",
+    "DevExpress.ExpressApp.ConditionalAppearance/23.2.6": {
+      "sha512": "ffywgDfQQKhgXwmwl+fUkcibJhF/E3VSNsVdLL/m+Tm3G/QzilQXCrZsnhI2jWWjJtCiRjRF2eRc3hgBhnP2Hg==",
       "type": "package",
-      "path": "devexpress.expressapp.conditionalappearance/24.1.3",
+      "path": "devexpress.expressapp.conditionalappearance/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.conditionalappearance.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.conditionalappearance.23.2.6.nupkg.sha512",
         "devexpress.expressapp.conditionalappearance.nuspec",
-        "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll",
-        "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v24.1.xml",
-        "lib/net6.0/DevExpress.ExpressApp.ConditionalAppearance.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.ConditionalAppearance.v24.1.xml"
+        "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v23.2.dll",
+        "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v23.2.xml",
+        "lib/net6.0/DevExpress.ExpressApp.ConditionalAppearance.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.ConditionalAppearance.v23.2.xml"
       ]
     },
-    "DevExpress.ExpressApp.Dashboards/24.1.3": {
-      "sha512": "6qw4hQKo8RGbJICBlmYOe4WSqugBDl56Fsz21+sfkJ2cHYMh8S5r54uHIisbyYp/EGUy1j+wznLSjkeVxE6e/w==",
+    "DevExpress.ExpressApp.Dashboards/23.2.6": {
+      "sha512": "VsxQCKDQL6nHs8Ymq0ISCbTEKp+IgwAuGD286dx9OAOK2iZTMXquoC8J/QzsEHJEXqIlHjpj+ZA037reNo8xfw==",
       "type": "package",
-      "path": "devexpress.expressapp.dashboards/24.1.3",
+      "path": "devexpress.expressapp.dashboards/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.dashboards.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.dashboards.23.2.6.nupkg.sha512",
         "devexpress.expressapp.dashboards.nuspec",
-        "lib/net452/DevExpress.ExpressApp.Dashboards.v24.1.dll",
-        "lib/net452/DevExpress.ExpressApp.Dashboards.v24.1.xml",
-        "lib/net6.0/DevExpress.ExpressApp.Dashboards.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.Dashboards.v24.1.xml"
+        "lib/net452/DevExpress.ExpressApp.Dashboards.v23.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Dashboards.v23.2.xml",
+        "lib/net6.0/DevExpress.ExpressApp.Dashboards.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.Dashboards.v23.2.xml"
       ]
     },
-    "DevExpress.ExpressApp.Objects/24.1.3": {
-      "sha512": "u0V+O0APaiSvvllE9jtrEsM0dNuT5UZ0M5yXxYwb3wJnJYoQ9Aj88Tx5dG9wpT3lW8UZyUWNmmSVz1lvyHjaPQ==",
+    "DevExpress.ExpressApp.Objects/23.2.6": {
+      "sha512": "Ey/MgK/HNksiuVPPRHd5PYnZEONNdWDmMJyhyVejMW8LOuwoD9qKdkOWAeV4EDBZjefEY80rZpwRxHXnCEBMKg==",
       "type": "package",
-      "path": "devexpress.expressapp.objects/24.1.3",
+      "path": "devexpress.expressapp.objects/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.objects.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.objects.23.2.6.nupkg.sha512",
         "devexpress.expressapp.objects.nuspec",
-        "lib/net452/DevExpress.ExpressApp.Objects.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.Objects.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.Objects.v24.1.xml"
+        "lib/net452/DevExpress.ExpressApp.Objects.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.Objects.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.Objects.v23.2.xml"
       ]
     },
-    "DevExpress.ExpressApp.Office/24.1.3": {
-      "sha512": "o4YsW/rFwi948m2Hn7oGNMRYssAuiaPznpueXJcCKO+rD7AR45V24ePEIBRegc/S87ZkLVZwk9IAxGRoDO3aWA==",
+    "DevExpress.ExpressApp.Office/23.2.6": {
+      "sha512": "U1jwlpyBA4c0szd43ILbe8mhKhf2JuI53UnF7rrUIOUzNDgmbdIEtgYrE97kCtqNiS0c626aCZCjxCAuNumL6w==",
       "type": "package",
-      "path": "devexpress.expressapp.office/24.1.3",
+      "path": "devexpress.expressapp.office/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.office.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.office.23.2.6.nupkg.sha512",
         "devexpress.expressapp.office.nuspec",
-        "lib/net452/DevExpress.ExpressApp.Office.v24.1.dll",
-        "lib/net452/DevExpress.ExpressApp.Office.v24.1.xml",
-        "lib/net6.0/DevExpress.ExpressApp.Office.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.Office.v24.1.xml"
+        "lib/net452/DevExpress.ExpressApp.Office.v23.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Office.v23.2.xml",
+        "lib/net6.0/DevExpress.ExpressApp.Office.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.Office.v23.2.xml"
       ]
     },
-    "DevExpress.ExpressApp.ReportsV2/24.1.3": {
-      "sha512": "xgzx+kV3nhwRk71h2H+yM737JS2tjeQXo3CoKjufq4OBP01w3/1ZbJXUJ3X/Qa0ecufECDvHhB9GeLuIh7LlsQ==",
+    "DevExpress.ExpressApp.ReportsV2/23.2.6": {
+      "sha512": "gNq2adnckccSODs9+VLxmXj0eyYvpoNR1Ib6vVkQTp+hbBfW7f7o2tlTjFI47BNBImJQAH78JnC+WVh4576u0Q==",
       "type": "package",
-      "path": "devexpress.expressapp.reportsv2/24.1.3",
+      "path": "devexpress.expressapp.reportsv2/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.reportsv2.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.reportsv2.23.2.6.nupkg.sha512",
         "devexpress.expressapp.reportsv2.nuspec",
-        "lib/net452/DevExpress.ExpressApp.ReportsV2.v24.1.dll",
-        "lib/net452/DevExpress.ExpressApp.ReportsV2.v24.1.xml",
-        "lib/net6.0/DevExpress.ExpressApp.ReportsV2.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.ReportsV2.v24.1.xml"
+        "lib/net452/DevExpress.ExpressApp.ReportsV2.v23.2.dll",
+        "lib/net452/DevExpress.ExpressApp.ReportsV2.v23.2.xml",
+        "lib/net6.0/DevExpress.ExpressApp.ReportsV2.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.ReportsV2.v23.2.xml"
       ]
     },
-    "DevExpress.ExpressApp.Scheduler/24.1.3": {
-      "sha512": "ERxXc5F5HP296rsq6+0KeKu5iO6QjQAsxnIEm5KRFfdKKYoDabBcGv79HME4U/zl2Uc4WzuyWfdh1kXoyyAAhQ==",
+    "DevExpress.ExpressApp.Scheduler/23.2.6": {
+      "sha512": "tWfol1o18LePELXgJWlRup/eeUnDJKCKx1BwCRWTv5dvibMrimMipc/uVTnUZSjwOuDclSqBw60G7gvrykIOqA==",
       "type": "package",
-      "path": "devexpress.expressapp.scheduler/24.1.3",
+      "path": "devexpress.expressapp.scheduler/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.scheduler.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.scheduler.23.2.6.nupkg.sha512",
         "devexpress.expressapp.scheduler.nuspec",
-        "lib/net452/DevExpress.ExpressApp.Scheduler.v24.1.dll",
-        "lib/net452/DevExpress.ExpressApp.Scheduler.v24.1.xml",
-        "lib/net6.0/DevExpress.ExpressApp.Scheduler.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.Scheduler.v24.1.xml"
+        "lib/net452/DevExpress.ExpressApp.Scheduler.v23.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Scheduler.v23.2.xml",
+        "lib/net6.0/DevExpress.ExpressApp.Scheduler.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.Scheduler.v23.2.xml"
       ]
     },
-    "DevExpress.ExpressApp.Security/24.1.3": {
-      "sha512": "yG3xyhArwPQrvNuf1SapI0yFn3O3M2d3b9lNIXOfYN9uv8wr4kONA8zCi3ineYJ7WjzlndVvcc4Ewrw8OUVovA==",
+    "DevExpress.ExpressApp.Security/23.2.6": {
+      "sha512": "ch98TvqA/nma0dgoEdHkkln9SFHpjx/pE6n9/XcNvZ6R/PxFETQ5mjAbB7WaCYtvz/yCJ448hCCeVtcyRV87+w==",
       "type": "package",
-      "path": "devexpress.expressapp.security/24.1.3",
+      "path": "devexpress.expressapp.security/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.security.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.security.23.2.6.nupkg.sha512",
         "devexpress.expressapp.security.nuspec",
-        "lib/net452/DevExpress.ExpressApp.Security.v24.1.dll",
-        "lib/net452/DevExpress.ExpressApp.Security.v24.1.xml",
-        "lib/net6.0/DevExpress.ExpressApp.Security.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.Security.v24.1.xml"
+        "lib/net452/DevExpress.ExpressApp.Security.v23.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Security.v23.2.xml",
+        "lib/net6.0/DevExpress.ExpressApp.Security.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.Security.v23.2.xml"
       ]
     },
-    "DevExpress.ExpressApp.Security.Xpo/24.1.3": {
-      "sha512": "lhyStztQsqC0NQEgtk3NALk7YSEdB9oneFvHJuRoKXG+gj23acN/VrvkdqIXcZvZiwng7UaT53kR/B54CpAw9g==",
+    "DevExpress.ExpressApp.Security.Xpo/23.2.6": {
+      "sha512": "fcch/Cbvgtf6XcORD4wpDOJNJx2D0yUe6lvEOWH+156Qx+I4yOmNXzpud6YkMPis3sYY6ar2VRwWyw0wNikaPA==",
       "type": "package",
-      "path": "devexpress.expressapp.security.xpo/24.1.3",
+      "path": "devexpress.expressapp.security.xpo/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.security.xpo.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.security.xpo.23.2.6.nupkg.sha512",
         "devexpress.expressapp.security.xpo.nuspec",
-        "lib/net452/DevExpress.ExpressApp.Security.Xpo.v24.1.dll",
-        "lib/net452/DevExpress.ExpressApp.Security.Xpo.v24.1.xml",
-        "lib/net6.0/DevExpress.ExpressApp.Security.Xpo.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.Security.Xpo.v24.1.xml"
+        "lib/net452/DevExpress.ExpressApp.Security.Xpo.v23.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Security.Xpo.v23.2.xml",
+        "lib/net6.0/DevExpress.ExpressApp.Security.Xpo.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.Security.Xpo.v23.2.xml"
       ]
     },
-    "DevExpress.ExpressApp.Validation/24.1.3": {
-      "sha512": "7FDcsZZezS2kDto0tLsS9YSD2UnwcnH0qE0JqjrNNEw8EFnDdqSlRl7SS6d8YeEMTh/DPoNz+86XMPaAX/6dig==",
+    "DevExpress.ExpressApp.Validation/23.2.6": {
+      "sha512": "ogpEBSOGy2JPGXHl6c6NZjRWz/ixIWBHNb0PyqYPOX1O7jNE4rZaa+NJ+oxflxz8rNp0SJGjNOFmgw5T1nK6EQ==",
       "type": "package",
-      "path": "devexpress.expressapp.validation/24.1.3",
+      "path": "devexpress.expressapp.validation/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.validation.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.validation.23.2.6.nupkg.sha512",
         "devexpress.expressapp.validation.nuspec",
-        "lib/net452/DevExpress.ExpressApp.Validation.v24.1.dll",
-        "lib/net452/DevExpress.ExpressApp.Validation.v24.1.xml",
-        "lib/net6.0/DevExpress.ExpressApp.Validation.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.Validation.v24.1.xml"
+        "lib/net452/DevExpress.ExpressApp.Validation.v23.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Validation.v23.2.xml",
+        "lib/net6.0/DevExpress.ExpressApp.Validation.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.Validation.v23.2.xml"
       ]
     },
-    "DevExpress.ExpressApp.ViewVariantsModule/24.1.3": {
-      "sha512": "z5COEnWLflYxq88ae72jFjqDo7giD+PSqAQBd0/LKoeRxncsHzCQw/+Qmx2pYqHhKq49pXqA7/PEPk4EyAJl3A==",
+    "DevExpress.ExpressApp.ViewVariantsModule/23.2.6": {
+      "sha512": "yiToyFXCuyGAuy7mrDkawbfsn3nBx87HvyBrwxhbgRr5ecfyKx5lLdh4PMWIUqT49NAqc4foP8oJpCxmjLVsiw==",
       "type": "package",
-      "path": "devexpress.expressapp.viewvariantsmodule/24.1.3",
+      "path": "devexpress.expressapp.viewvariantsmodule/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.viewvariantsmodule.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.viewvariantsmodule.23.2.6.nupkg.sha512",
         "devexpress.expressapp.viewvariantsmodule.nuspec",
-        "lib/net452/DevExpress.ExpressApp.ViewVariantsModule.v24.1.dll",
-        "lib/net452/DevExpress.ExpressApp.ViewVariantsModule.v24.1.xml",
-        "lib/net6.0/DevExpress.ExpressApp.ViewVariantsModule.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.ViewVariantsModule.v24.1.xml"
+        "lib/net452/DevExpress.ExpressApp.ViewVariantsModule.v23.2.dll",
+        "lib/net452/DevExpress.ExpressApp.ViewVariantsModule.v23.2.xml",
+        "lib/net6.0/DevExpress.ExpressApp.ViewVariantsModule.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.ViewVariantsModule.v23.2.xml"
       ]
     },
-    "DevExpress.ExpressApp.Xpo/24.1.3": {
-      "sha512": "gfVK5FOMIRmc23V7kIdKDh5CJ4VlkVQ+N7zltCprh7YaBYKttaZRbkKgPzW2aBF53nogEQ2MjJ38/wHoB6OR3g==",
+    "DevExpress.ExpressApp.Xpo/23.2.6": {
+      "sha512": "v347wJmWRjcebXUaYz/mlEzWQsTRmxIEm0837HQ7AKn65UOxLZkg8QmsGA1WLFxZwM9Tg06QG8DnH1FAbYq9tA==",
       "type": "package",
-      "path": "devexpress.expressapp.xpo/24.1.3",
+      "path": "devexpress.expressapp.xpo/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.expressapp.xpo.24.1.3.nupkg.sha512",
+        "devexpress.expressapp.xpo.23.2.6.nupkg.sha512",
         "devexpress.expressapp.xpo.nuspec",
-        "lib/net452/DevExpress.ExpressApp.Xpo.v24.1.dll",
-        "lib/net452/DevExpress.ExpressApp.Xpo.v24.1.xml",
-        "lib/net6.0/DevExpress.ExpressApp.Xpo.v24.1.dll",
-        "lib/net6.0/DevExpress.ExpressApp.Xpo.v24.1.xml"
+        "lib/net452/DevExpress.ExpressApp.Xpo.v23.2.dll",
+        "lib/net452/DevExpress.ExpressApp.Xpo.v23.2.xml",
+        "lib/net6.0/DevExpress.ExpressApp.Xpo.v23.2.dll",
+        "lib/net6.0/DevExpress.ExpressApp.Xpo.v23.2.xml"
       ]
     },
-    "DevExpress.Gauges.Core/24.1.3": {
-      "sha512": "c7LCZF/1JQy4Xmwe3PObQhs5L6O3y/PlVJWptlvpWvhg4XmlOScwy66HgBTNq3AxtwAoF/dRNhfcjsR3VkAP8Q==",
+    "DevExpress.Gauges.Core/23.2.6": {
+      "sha512": "qW1l7xKDLlEL+GrtWwp0die4UQIFIFbNSIj3ndLIKBG2Ft2P9kPeRcMFO1+bmxwZAljuuWiWROI8jC+Mtf4hpQ==",
       "type": "package",
-      "path": "devexpress.gauges.core/24.1.3",
+      "path": "devexpress.gauges.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.gauges.core.24.1.3.nupkg.sha512",
+        "devexpress.gauges.core.23.2.6.nupkg.sha512",
         "devexpress.gauges.core.nuspec",
-        "lib/net452/DevExpress.XtraGauges.v24.1.Core.dll",
-        "lib/net452/DevExpress.XtraGauges.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.XtraGauges.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.XtraGauges.v24.1.Core.xml"
+        "lib/net452/DevExpress.XtraGauges.v23.2.Core.dll",
+        "lib/net452/DevExpress.XtraGauges.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.XtraGauges.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.XtraGauges.v23.2.Core.xml"
       ]
     },
-    "DevExpress.Images/24.1.3": {
-      "sha512": "RaheIvEfDwNcBJfJ7Mr8BqhjDx3iv5CxnbKPXQn5q2Yz9AS862gCbTjDPslQp0orJRMAzgh+0vMfMDDhDIW4kA==",
+    "DevExpress.Images/23.2.6": {
+      "sha512": "DSBtgvXeaQjhUsY7pOtEt53cglklDbRe7NRCWL8U11uSZe+jWNj7GjA9Cuh+OQ/6goscLom7htlUdIThhGOI2A==",
       "type": "package",
-      "path": "devexpress.images/24.1.3",
+      "path": "devexpress.images/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.images.24.1.3.nupkg.sha512",
+        "devexpress.images.23.2.6.nupkg.sha512",
         "devexpress.images.nuspec",
-        "lib/net452/DevExpress.Images.v24.1.dll",
-        "lib/net6.0/DevExpress.Images.v24.1.dll"
+        "lib/net452/DevExpress.Images.v23.2.dll",
+        "lib/net6.0/DevExpress.Images.v23.2.dll"
       ]
     },
-    "DevExpress.Map.Core/24.1.3": {
-      "sha512": "xGExrX/3YzOBGSEX5z7sWewm3jWqwOfoaTkwId2Rxbi6LmyQg1BlMdezWAW7DqI61h1Zz2MZYR7W5tTlqbYpNQ==",
+    "DevExpress.Map.Core/23.2.6": {
+      "sha512": "OXnq0tswnjRtV0cMYoZBlqQ+ycZxhM15xoA/lQGnF2LQnT9t2V4y5SiGV31JuQs3hx67R7aXI7ikRCv38WqwtQ==",
       "type": "package",
-      "path": "devexpress.map.core/24.1.3",
+      "path": "devexpress.map.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.map.core.24.1.3.nupkg.sha512",
+        "devexpress.map.core.23.2.6.nupkg.sha512",
         "devexpress.map.core.nuspec",
-        "lib/net452/DevExpress.Map.v24.1.Core.dll",
-        "lib/net452/DevExpress.Map.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.Map.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.Map.v24.1.Core.xml"
+        "lib/net452/DevExpress.Map.v23.2.Core.dll",
+        "lib/net452/DevExpress.Map.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.Map.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.Map.v23.2.Core.xml"
       ]
     },
-    "DevExpress.Office.Core/24.1.3": {
-      "sha512": "tdvkshV7fwI+DORQ4juMgqa0hDCtuUyOl6wi26KpPjuI02wvqq8/Udz4VBi0qSTja2abIvfoIyf+driJq8W4kQ==",
+    "DevExpress.Office.Core/23.2.6": {
+      "sha512": "tmNjH58547JzTgWefHHZomn4Lms8yMdXnUTuRN+hCzQxBbPGSF7dnOf4exvlUituN/38litAxdYlWHPaGLSTNg==",
       "type": "package",
-      "path": "devexpress.office.core/24.1.3",
+      "path": "devexpress.office.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.office.core.24.1.3.nupkg.sha512",
+        "devexpress.office.core.23.2.6.nupkg.sha512",
         "devexpress.office.core.nuspec",
-        "lib/net452/DevExpress.Office.v24.1.Core.dll",
-        "lib/net452/DevExpress.Office.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.Office.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.Office.v24.1.Core.xml"
+        "lib/net452/DevExpress.Office.v23.2.Core.dll",
+        "lib/net452/DevExpress.Office.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.Office.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.Office.v23.2.Core.xml"
       ]
     },
-    "DevExpress.Pdf.Core/24.1.3": {
-      "sha512": "lwa/MwBNolCUy7r0CB846lsPMWu7abn6NZnlA6V/pjReMFNd9veln0buEekkWR/HvtSVQjTt8wKP2L0oYnAMJw==",
+    "DevExpress.Pdf.Core/23.2.6": {
+      "sha512": "krh6xrJ4lt703q6t9B5SdqYnqWFdCWYZQRfFpHyFtNihzwrPlmTkZVzH7dS6Fv+TRwg9g4fINCGVs/Pz6TpQXw==",
       "type": "package",
-      "path": "devexpress.pdf.core/24.1.3",
+      "path": "devexpress.pdf.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.pdf.core.24.1.3.nupkg.sha512",
+        "devexpress.pdf.core.23.2.6.nupkg.sha512",
         "devexpress.pdf.core.nuspec",
-        "lib/net452/DevExpress.Pdf.v24.1.Core.dll",
-        "lib/net452/DevExpress.Pdf.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.Pdf.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.Pdf.v24.1.Core.xml"
+        "lib/net452/DevExpress.Pdf.v23.2.Core.dll",
+        "lib/net452/DevExpress.Pdf.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.Pdf.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.Pdf.v23.2.Core.xml"
       ]
     },
-    "DevExpress.Pdf.Drawing/24.1.3": {
-      "sha512": "KlPyO6fcir4rMuCTX4PSiDOVy93MQM/WFrcDAdBN/1QLxT90qSRVqh/HU3rJnBBtPzd+41B1JaywQkJZ6NenVw==",
+    "DevExpress.Pdf.Drawing/23.2.6": {
+      "sha512": "exH7+svWYxu0YCahyuLXeIvWv9MFRhT2yYC+MuBrVQRGQF8VSlDYoZq5WLAFwwDi5dAIYlP7uIBP9aGDVCA0PA==",
       "type": "package",
-      "path": "devexpress.pdf.drawing/24.1.3",
+      "path": "devexpress.pdf.drawing/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.pdf.drawing.24.1.3.nupkg.sha512",
+        "devexpress.pdf.drawing.23.2.6.nupkg.sha512",
         "devexpress.pdf.drawing.nuspec",
-        "lib/net452/DevExpress.Pdf.v24.1.Drawing.dll",
-        "lib/net452/DevExpress.Pdf.v24.1.Drawing.xml",
-        "lib/net6.0/DevExpress.Pdf.v24.1.Drawing.dll",
-        "lib/net6.0/DevExpress.Pdf.v24.1.Drawing.xml"
+        "lib/net452/DevExpress.Pdf.v23.2.Drawing.dll",
+        "lib/net452/DevExpress.Pdf.v23.2.Drawing.xml",
+        "lib/net6.0/DevExpress.Pdf.v23.2.Drawing.dll",
+        "lib/net6.0/DevExpress.Pdf.v23.2.Drawing.xml"
       ]
     },
-    "DevExpress.Persistent.Base/24.1.3": {
-      "sha512": "ltgV6bmQc+gAvW5ELM+uuEhZlkFEQdELXYQI40RuVankr8Oyx7p7YS/GJ1f6q+xrCKC3Xxyl+KAEbvs0v+Ao3A==",
+    "DevExpress.Persistent.Base/23.2.6": {
+      "sha512": "eRhklEnEzVsfrlMmT22FjO9tJCDK5Xfb6UJPUntO2WCSSuNu6u5v+ksV67uauEM/ov1hSK/y3IcB9xTQl4HNUw==",
       "type": "package",
-      "path": "devexpress.persistent.base/24.1.3",
+      "path": "devexpress.persistent.base/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.persistent.base.24.1.3.nupkg.sha512",
+        "devexpress.persistent.base.23.2.6.nupkg.sha512",
         "devexpress.persistent.base.nuspec",
-        "lib/net452/DevExpress.Persistent.Base.v24.1.dll",
-        "lib/net452/DevExpress.Persistent.Base.v24.1.xml",
-        "lib/net6.0/DevExpress.Persistent.Base.v24.1.dll",
-        "lib/net6.0/DevExpress.Persistent.Base.v24.1.xml"
+        "lib/net452/DevExpress.Persistent.Base.v23.2.dll",
+        "lib/net452/DevExpress.Persistent.Base.v23.2.xml",
+        "lib/net6.0/DevExpress.Persistent.Base.v23.2.dll",
+        "lib/net6.0/DevExpress.Persistent.Base.v23.2.xml"
       ]
     },
-    "DevExpress.Persistent.BaseImpl.Xpo/24.1.3": {
-      "sha512": "ckVlII416TyzYZA/ok7uqaZ1S2wXtjl7vvxh8P5FREkfRyz9RcJA4YtdspTijB9T4ECxiC8eK1nM62GKPyeb4g==",
+    "DevExpress.Persistent.BaseImpl.Xpo/23.2.6": {
+      "sha512": "iEjN7SSEzqmeKrBHp3bNIvUMaGQOEyvyRtPIw5LmPyEfCKQHjLODzRbRPl+iAihyj8gZiKPxgil8TYlJtgSb9A==",
       "type": "package",
-      "path": "devexpress.persistent.baseimpl.xpo/24.1.3",
+      "path": "devexpress.persistent.baseimpl.xpo/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.persistent.baseimpl.xpo.24.1.3.nupkg.sha512",
+        "devexpress.persistent.baseimpl.xpo.23.2.6.nupkg.sha512",
         "devexpress.persistent.baseimpl.xpo.nuspec",
-        "lib/net452/DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll",
-        "lib/net452/DevExpress.Persistent.BaseImpl.Xpo.v24.1.xml",
-        "lib/net6.0/DevExpress.Persistent.BaseImpl.Xpo.v24.1.dll",
-        "lib/net6.0/DevExpress.Persistent.BaseImpl.Xpo.v24.1.xml"
+        "lib/net452/DevExpress.Persistent.BaseImpl.Xpo.v23.2.dll",
+        "lib/net452/DevExpress.Persistent.BaseImpl.Xpo.v23.2.xml",
+        "lib/net6.0/DevExpress.Persistent.BaseImpl.Xpo.v23.2.dll",
+        "lib/net6.0/DevExpress.Persistent.BaseImpl.Xpo.v23.2.xml"
       ]
     },
-    "DevExpress.PivotGrid.Core/24.1.3": {
-      "sha512": "ZFaSv4TpVyouZnFQPtDUc51mCR18/xAmetHpgdxIv2+QiWL6KklnLiq3Dc6vCrZD4x43P0Nux7f4X3dXRrqi5Q==",
+    "DevExpress.PivotGrid.Core/23.2.6": {
+      "sha512": "rOvB+rklOFkV8UQWt7y1j433dau3VI3Tczw9N31DOE88+8IkgQT30oGuKeuG7WZpU6QOxgRcoRBqhAY7GUtmuQ==",
       "type": "package",
-      "path": "devexpress.pivotgrid.core/24.1.3",
+      "path": "devexpress.pivotgrid.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.pivotgrid.core.24.1.3.nupkg.sha512",
+        "devexpress.pivotgrid.core.23.2.6.nupkg.sha512",
         "devexpress.pivotgrid.core.nuspec",
-        "lib/net452/DevExpress.PivotGrid.v24.1.Core.dll",
-        "lib/net452/DevExpress.PivotGrid.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.PivotGrid.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.PivotGrid.v24.1.Core.xml"
+        "lib/net452/DevExpress.PivotGrid.v23.2.Core.dll",
+        "lib/net452/DevExpress.PivotGrid.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.PivotGrid.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.PivotGrid.v23.2.Core.xml"
       ]
     },
-    "DevExpress.Printing.Core/24.1.3": {
-      "sha512": "p1E4e6X99mfjtKlHVSeof/Be4k+gkYVkXoHBukDOlr/gb0UNfD4jHMFPbs+pffnKdsYGk5B38V24u5on7iF32A==",
+    "DevExpress.Printing.Core/23.2.6": {
+      "sha512": "6ntxmvTgknujGUQkabTWnylTh/qnmCTFfskORsOEXsxeyuvoQ3fve0Rq3B6871qXf38Xqhy5P4Bxowu0iH9A9g==",
       "type": "package",
-      "path": "devexpress.printing.core/24.1.3",
+      "path": "devexpress.printing.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.printing.core.24.1.3.nupkg.sha512",
+        "devexpress.printing.core.23.2.6.nupkg.sha512",
         "devexpress.printing.core.nuspec",
-        "lib/net452/DevExpress.Printing.v24.1.Core.dll",
-        "lib/net452/DevExpress.Printing.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.Printing.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.Printing.v24.1.Core.xml"
+        "lib/net452/DevExpress.Printing.v23.2.Core.dll",
+        "lib/net452/DevExpress.Printing.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.Printing.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.Printing.v23.2.Core.xml"
       ]
     },
-    "DevExpress.Reporting.Core/24.1.3": {
-      "sha512": "5kM0ZW4AQ2yims168He+idXd7DJ+JjgcbS6RKPUpl99jgLHRegY6OilwOKQskOXlQRenoZhZl6dQpAhWJhC3sA==",
+    "DevExpress.Reporting.Core/23.2.6": {
+      "sha512": "FqtoIObxVCRXlERe2oIdMHsSGrugdUtuxE7ttheql2MjmxPec9NzAM9acQolEtvyrQ8RqJtzTZ5LKhjXvUdRhA==",
       "type": "package",
-      "path": "devexpress.reporting.core/24.1.3",
+      "path": "devexpress.reporting.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/DevExpress.Reporting.Core.targets",
         "buildMultiTargeting/DevExpress.Reporting.Core.targets",
         "buildTransitive/DevExpress.Reporting.Core.targets",
-        "devexpress.reporting.core.24.1.3.nupkg.sha512",
+        "devexpress.reporting.core.23.2.6.nupkg.sha512",
         "devexpress.reporting.core.nuspec",
-        "lib/net452/DevExpress.XtraReports.v24.1.dll",
-        "lib/net452/DevExpress.XtraReports.v24.1.xml",
-        "lib/net6.0/DevExpress.XtraReports.v24.1.dll",
-        "lib/net6.0/DevExpress.XtraReports.v24.1.xml"
+        "lib/net452/DevExpress.XtraReports.v23.2.dll",
+        "lib/net452/DevExpress.XtraReports.v23.2.xml",
+        "lib/net6.0/DevExpress.XtraReports.v23.2.dll",
+        "lib/net6.0/DevExpress.XtraReports.v23.2.xml"
       ]
     },
-    "DevExpress.RichEdit.Core/24.1.3": {
-      "sha512": "lPnrMJrHLZMubEQiZxiwhAKniD0Sfng9W24wztgJfK+w763j3j7AUHqcaj4dMfYUc719NBqUxWNx0XxJ3Hw7Dw==",
+    "DevExpress.RichEdit.Core/23.2.6": {
+      "sha512": "RpTBZCHqaEqpm1mxxma0aBz13JrCbRc/4IDAwjECEbl7WcOFw3Q/Lx/nKFl5ZLTMmk/3Y7AT2j3p+OsYAQkgRA==",
       "type": "package",
-      "path": "devexpress.richedit.core/24.1.3",
+      "path": "devexpress.richedit.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.richedit.core.24.1.3.nupkg.sha512",
+        "devexpress.richedit.core.23.2.6.nupkg.sha512",
         "devexpress.richedit.core.nuspec",
-        "lib/net452/DevExpress.RichEdit.v24.1.Core.dll",
-        "lib/net452/DevExpress.RichEdit.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.RichEdit.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.RichEdit.v24.1.Core.xml"
+        "lib/net452/DevExpress.RichEdit.v23.2.Core.dll",
+        "lib/net452/DevExpress.RichEdit.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.RichEdit.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.RichEdit.v23.2.Core.xml"
       ]
     },
-    "DevExpress.RichEdit.Export/24.1.3": {
-      "sha512": "KI5ytPUm01sFIM47gWQMg0/dZ+q8A7C3Evrds9ITnsf4d4Fygk3vr+Uk+i5rf+vkA5T7dIUaHERZsItvVQ/FbQ==",
+    "DevExpress.RichEdit.Export/23.2.6": {
+      "sha512": "20WwrAoHCzZ7IUthgBElWrk59kc8wqMdhbcuCqxV7eewj2pNWQO7UqGLj8htcTUrJ0MSihKVt2ISYHu+T8iByg==",
       "type": "package",
-      "path": "devexpress.richedit.export/24.1.3",
+      "path": "devexpress.richedit.export/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.richedit.export.24.1.3.nupkg.sha512",
+        "devexpress.richedit.export.23.2.6.nupkg.sha512",
         "devexpress.richedit.export.nuspec",
-        "lib/net452/DevExpress.RichEdit.v24.1.Export.dll",
-        "lib/net6.0/DevExpress.RichEdit.v24.1.Export.dll"
+        "lib/net452/DevExpress.RichEdit.v23.2.Export.dll",
+        "lib/net6.0/DevExpress.RichEdit.v23.2.Export.dll"
       ]
     },
-    "DevExpress.Scheduler.Core/24.1.3": {
-      "sha512": "yj+iN5IDuhRZOfFoES+58AfL6H8MmvQTQdw3lDrBDEmSriPBNj7ZQ2JyPxqgKm5301VmUWQLCXfN+2LKu1Mc5A==",
+    "DevExpress.Scheduler.Core/23.2.6": {
+      "sha512": "H8gLY0jh2h6B+HP0fY5nWvvJXAclQUj2qiumZPmgfNq61JgANBrO1El55jARNzgvqvNIFRjA53A18hL5NcxZ+w==",
       "type": "package",
-      "path": "devexpress.scheduler.core/24.1.3",
+      "path": "devexpress.scheduler.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.scheduler.core.24.1.3.nupkg.sha512",
+        "devexpress.scheduler.core.23.2.6.nupkg.sha512",
         "devexpress.scheduler.core.nuspec",
-        "lib/net452/DevExpress.XtraScheduler.v24.1.Core.dll",
-        "lib/net452/DevExpress.XtraScheduler.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.XtraScheduler.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.XtraScheduler.v24.1.Core.xml"
+        "lib/net452/DevExpress.XtraScheduler.v23.2.Core.dll",
+        "lib/net452/DevExpress.XtraScheduler.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.XtraScheduler.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.XtraScheduler.v23.2.Core.xml"
       ]
     },
-    "DevExpress.Sparkline.Core/24.1.3": {
-      "sha512": "k9i3Nm3DqfXR53m6sXzFkf9GTRDirh1Y4fHO/I4Frxp2FzpaCyhIHgqrb2b0YrZYtwRKIrs3CBSHAyyFZu3NPQ==",
+    "DevExpress.Sparkline.Core/23.2.6": {
+      "sha512": "v0JlKA9hj3Rw3qoDmYscaHYOjr+po2MXQedoBHZ08hkWbt/7sTXPD+ZNu7VZjs1y+eiRf1vu8o4Ou8vSi76gTg==",
       "type": "package",
-      "path": "devexpress.sparkline.core/24.1.3",
+      "path": "devexpress.sparkline.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.sparkline.core.24.1.3.nupkg.sha512",
+        "devexpress.sparkline.core.23.2.6.nupkg.sha512",
         "devexpress.sparkline.core.nuspec",
-        "lib/net452/DevExpress.Sparkline.v24.1.Core.dll",
-        "lib/net452/DevExpress.Sparkline.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.Sparkline.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.Sparkline.v24.1.Core.xml"
+        "lib/net452/DevExpress.Sparkline.v23.2.Core.dll",
+        "lib/net452/DevExpress.Sparkline.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.Sparkline.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.Sparkline.v23.2.Core.xml"
       ]
     },
-    "DevExpress.Spreadsheet.Core/24.1.3": {
-      "sha512": "0GVzzaUykxP3Cky660LRsl3PsxRmetZHCGGEFBviC/m8Rtz9ycEQXwsB9G5YT7dYe5alNqkg4ti6li+uV6cxIA==",
+    "DevExpress.Spreadsheet.Core/23.2.6": {
+      "sha512": "8VMoLK5lyWbq1gCdtHDJcIPcT3msg4xIHKV/TfWL27GGU8vBAqjpp0oUGmCbOiehxmbPgSy5B0gADJqny9DYFw==",
       "type": "package",
-      "path": "devexpress.spreadsheet.core/24.1.3",
+      "path": "devexpress.spreadsheet.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.spreadsheet.core.24.1.3.nupkg.sha512",
+        "devexpress.spreadsheet.core.23.2.6.nupkg.sha512",
         "devexpress.spreadsheet.core.nuspec",
-        "lib/net452/DevExpress.Spreadsheet.v24.1.Core.dll",
-        "lib/net452/DevExpress.Spreadsheet.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.Spreadsheet.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.Spreadsheet.v24.1.Core.xml"
+        "lib/net452/DevExpress.Spreadsheet.v23.2.Core.dll",
+        "lib/net452/DevExpress.Spreadsheet.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.Spreadsheet.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.Spreadsheet.v23.2.Core.xml"
       ]
     },
-    "DevExpress.TreeMap/24.1.3": {
-      "sha512": "CTn0Xib7Eoub0Naw66Wxxp0ao+UqFbtllV1fJfLIF5cOlnrHZKQDg165Etp5rUajcLEkaPH0TeRR0FdsYJT8Cg==",
+    "DevExpress.TreeMap/23.2.6": {
+      "sha512": "k79MiFLZ4rJ83EqRZwbWU/Un88q+m3KYa23v94kdTSyMXf8Z9/SxWUOlwKgLOAHkXUfYVNvDsWiHYXzyEr6JpQ==",
       "type": "package",
-      "path": "devexpress.treemap/24.1.3",
+      "path": "devexpress.treemap/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.treemap.24.1.3.nupkg.sha512",
+        "devexpress.treemap.23.2.6.nupkg.sha512",
         "devexpress.treemap.nuspec",
-        "lib/net452/DevExpress.XtraTreeMap.v24.1.dll",
-        "lib/net452/DevExpress.XtraTreeMap.v24.1.xml",
-        "lib/net6.0/DevExpress.XtraTreeMap.v24.1.dll",
-        "lib/net6.0/DevExpress.XtraTreeMap.v24.1.xml"
+        "lib/net452/DevExpress.XtraTreeMap.v23.2.dll",
+        "lib/net452/DevExpress.XtraTreeMap.v23.2.xml",
+        "lib/net6.0/DevExpress.XtraTreeMap.v23.2.dll",
+        "lib/net6.0/DevExpress.XtraTreeMap.v23.2.xml"
       ]
     },
-    "DevExpress.TreeMap.Core/24.1.3": {
-      "sha512": "u0gnKe7MsvO9bKEWp7Lm8kmnT3aIoGFEElgWVnFuO0E1sK4jAN4yM012bvcpb0PCQy68CbtQg0KJn//PSL26lA==",
+    "DevExpress.TreeMap.Core/23.2.6": {
+      "sha512": "tM5QLNZ/8GTEUyf0gkdUsiFutjCEUGyKzZ2vvDgJnJt2tUmxLZbRNnRI0h/fpzygPcuQ9oWI8VcRVNP/3+Mk/g==",
       "type": "package",
-      "path": "devexpress.treemap.core/24.1.3",
+      "path": "devexpress.treemap.core/23.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.treemap.core.24.1.3.nupkg.sha512",
+        "devexpress.treemap.core.23.2.6.nupkg.sha512",
         "devexpress.treemap.core.nuspec",
-        "lib/net452/DevExpress.TreeMap.v24.1.Core.dll",
-        "lib/net452/DevExpress.TreeMap.v24.1.Core.xml",
-        "lib/net6.0/DevExpress.TreeMap.v24.1.Core.dll",
-        "lib/net6.0/DevExpress.TreeMap.v24.1.Core.xml"
+        "lib/net452/DevExpress.TreeMap.v23.2.Core.dll",
+        "lib/net452/DevExpress.TreeMap.v23.2.Core.xml",
+        "lib/net6.0/DevExpress.TreeMap.v23.2.Core.dll",
+        "lib/net6.0/DevExpress.TreeMap.v23.2.Core.xml"
       ]
     },
-    "DevExpress.Xpo/24.1.3": {
-      "sha512": "kKZ+AGiBZQWvTAaDPj+HAnBiyWWXepyceqTAlDHvKeygpSMdIykyGkGbF/7pwUfraT/vwj/d81aizeiNJMFUlg==",
+    "DevExpress.Xpo/23.2.6": {
+      "sha512": "cjF4vcXpkizQIa2Kc+EcLlLnaV5zSUI7aNn3GiG0sLCV1TRSbnnM5QnDE11YVlHLLwCd1F8h3LdTIvF5AbGfBQ==",
       "type": "package",
-      "path": "devexpress.xpo/24.1.3",
+      "path": "devexpress.xpo/23.2.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "devexpress.xpo.24.1.3.nupkg.sha512",
+        "devexpress.xpo.23.2.6.nupkg.sha512",
         "devexpress.xpo.nuspec",
-        "lib/net452/DevExpress.Xpo.v24.1.dll",
-        "lib/net452/DevExpress.Xpo.v24.1.xml",
-        "lib/net6.0/DevExpress.Xpo.v24.1.dll",
-        "lib/net6.0/DevExpress.Xpo.v24.1.xml",
+        "lib/net452/DevExpress.Xpo.v23.2.dll",
+        "lib/net452/DevExpress.Xpo.v23.2.xml",
+        "lib/net6.0/DevExpress.Xpo.v23.2.dll",
+        "lib/net6.0/DevExpress.Xpo.v23.2.xml",
         "readme.txt",
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "MessagePack/2.5.140": {
-      "sha512": "nkIsgy8BkIfv40bSz9XZb4q//scI1PF3AYeB5X66nSlIhBIqbdpLz8Qk3gHvnjV3RZglQLO/ityK3eNfLii2NA==",
+    "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
+      "sha512": "W8DPQjkMScOMTtJbPwmPyj9c3zYSFGawDW3jwlBOOsnY+EzZFLgNQ/UMkK35JmkNOVPdCyPr2Tw7Vv9N+KA3ZQ==",
       "type": "package",
-      "path": "messagepack/2.5.140",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net6.0/MessagePack.dll",
-        "lib/net6.0/MessagePack.xml",
-        "lib/netstandard2.0/MessagePack.dll",
-        "lib/netstandard2.0/MessagePack.xml",
-        "messagepack.2.5.140.nupkg.sha512",
-        "messagepack.nuspec"
-      ]
-    },
-    "MessagePack.Annotations/2.5.140": {
-      "sha512": "JE3vwluOrsJ4t3hnfXzIxJUh6lhx6M/KR8Sark/HOUw1DJ5UKu5JsAnnuaQngg6poFkRx1lzHSLTkxHNJO7+uQ==",
-      "type": "package",
-      "path": "messagepack.annotations/2.5.140",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/MessagePack.Annotations.dll",
-        "lib/netstandard2.0/MessagePack.Annotations.xml",
-        "messagepack.annotations.2.5.140.nupkg.sha512",
-        "messagepack.annotations.nuspec"
-      ]
-    },
-    "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
-      "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
-      "type": "package",
-      "path": "microsoft.bcl.asyncinterfaces/1.1.1",
+      "path": "microsoft.bcl.asyncinterfaces/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2802,11 +2626,8 @@
         "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
-        "microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
         "microsoft.bcl.asyncinterfaces.nuspec",
-        "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
-        "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
-        "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -2938,663 +2759,6 @@
         "microsoft.codeanalysis.csharp.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.NetAnalyzers/8.0.0": {
-      "sha512": "DxiTgkCl3CGq1rYmBX2wjY7XGbxiBdL4J+/AJIAFLKy5z70NxhnVRnPghnicXZ8oF6JKVXlW3xwznRbI3ioEKg==",
-      "type": "package",
-      "path": "microsoft.codeanalysis.netanalyzers/8.0.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "ThirdPartyNotices.txt",
-        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll",
-        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.NetAnalyzers.dll",
-        "analyzers/dotnet/cs/cs/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/de/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/es/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/fr/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/it/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/ja/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/ko/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/pl/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/pt-BR/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/ru/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/tr/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/zh-Hans/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/cs/zh-Hant/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/Microsoft.CodeAnalysis.NetAnalyzers.dll",
-        "analyzers/dotnet/vb/Microsoft.CodeAnalysis.VisualBasic.NetAnalyzers.dll",
-        "analyzers/dotnet/vb/cs/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/de/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/es/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/fr/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/it/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/ja/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/ko/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/pl/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/pt-BR/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/ru/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/tr/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/zh-Hans/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "analyzers/dotnet/vb/zh-Hant/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
-        "buildTransitive/DisableNETAnalyzersForNuGetPackage.props",
-        "buildTransitive/Microsoft.CodeAnalysis.NetAnalyzers.props",
-        "buildTransitive/Microsoft.CodeAnalysis.NetAnalyzers.targets",
-        "buildTransitive/config/analysislevel_5_all.globalconfig",
-        "buildTransitive/config/analysislevel_5_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_5_default.globalconfig",
-        "buildTransitive/config/analysislevel_5_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_5_minimum.globalconfig",
-        "buildTransitive/config/analysislevel_5_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_5_none.globalconfig",
-        "buildTransitive/config/analysislevel_5_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_5_recommended.globalconfig",
-        "buildTransitive/config/analysislevel_5_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_6_all.globalconfig",
-        "buildTransitive/config/analysislevel_6_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_6_default.globalconfig",
-        "buildTransitive/config/analysislevel_6_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_6_minimum.globalconfig",
-        "buildTransitive/config/analysislevel_6_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_6_none.globalconfig",
-        "buildTransitive/config/analysislevel_6_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_6_recommended.globalconfig",
-        "buildTransitive/config/analysislevel_6_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_7_all.globalconfig",
-        "buildTransitive/config/analysislevel_7_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_7_default.globalconfig",
-        "buildTransitive/config/analysislevel_7_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_7_minimum.globalconfig",
-        "buildTransitive/config/analysislevel_7_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_7_none.globalconfig",
-        "buildTransitive/config/analysislevel_7_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_7_recommended.globalconfig",
-        "buildTransitive/config/analysislevel_7_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_8_all.globalconfig",
-        "buildTransitive/config/analysislevel_8_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_8_default.globalconfig",
-        "buildTransitive/config/analysislevel_8_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_8_minimum.globalconfig",
-        "buildTransitive/config/analysislevel_8_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_8_none.globalconfig",
-        "buildTransitive/config/analysislevel_8_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_8_recommended.globalconfig",
-        "buildTransitive/config/analysislevel_8_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_9_all.globalconfig",
-        "buildTransitive/config/analysislevel_9_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_9_default.globalconfig",
-        "buildTransitive/config/analysislevel_9_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_9_minimum.globalconfig",
-        "buildTransitive/config/analysislevel_9_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_9_none.globalconfig",
-        "buildTransitive/config/analysislevel_9_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevel_9_recommended.globalconfig",
-        "buildTransitive/config/analysislevel_9_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_5_all.globalconfig",
-        "buildTransitive/config/analysisleveldesign_5_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_5_default.globalconfig",
-        "buildTransitive/config/analysisleveldesign_5_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_5_minimum.globalconfig",
-        "buildTransitive/config/analysisleveldesign_5_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_5_none.globalconfig",
-        "buildTransitive/config/analysisleveldesign_5_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_5_recommended.globalconfig",
-        "buildTransitive/config/analysisleveldesign_5_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_6_all.globalconfig",
-        "buildTransitive/config/analysisleveldesign_6_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_6_default.globalconfig",
-        "buildTransitive/config/analysisleveldesign_6_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_6_minimum.globalconfig",
-        "buildTransitive/config/analysisleveldesign_6_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_6_none.globalconfig",
-        "buildTransitive/config/analysisleveldesign_6_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_6_recommended.globalconfig",
-        "buildTransitive/config/analysisleveldesign_6_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_7_all.globalconfig",
-        "buildTransitive/config/analysisleveldesign_7_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_7_default.globalconfig",
-        "buildTransitive/config/analysisleveldesign_7_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_7_minimum.globalconfig",
-        "buildTransitive/config/analysisleveldesign_7_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_7_none.globalconfig",
-        "buildTransitive/config/analysisleveldesign_7_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_7_recommended.globalconfig",
-        "buildTransitive/config/analysisleveldesign_7_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_8_all.globalconfig",
-        "buildTransitive/config/analysisleveldesign_8_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_8_default.globalconfig",
-        "buildTransitive/config/analysisleveldesign_8_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_8_minimum.globalconfig",
-        "buildTransitive/config/analysisleveldesign_8_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_8_none.globalconfig",
-        "buildTransitive/config/analysisleveldesign_8_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_8_recommended.globalconfig",
-        "buildTransitive/config/analysisleveldesign_8_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_9_all.globalconfig",
-        "buildTransitive/config/analysisleveldesign_9_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_9_default.globalconfig",
-        "buildTransitive/config/analysisleveldesign_9_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_9_minimum.globalconfig",
-        "buildTransitive/config/analysisleveldesign_9_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_9_none.globalconfig",
-        "buildTransitive/config/analysisleveldesign_9_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldesign_9_recommended.globalconfig",
-        "buildTransitive/config/analysisleveldesign_9_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_5_all.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_5_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_5_default.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_5_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_5_minimum.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_5_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_5_none.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_5_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_5_recommended.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_5_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_6_all.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_6_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_6_default.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_6_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_6_minimum.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_6_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_6_none.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_6_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_6_recommended.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_6_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_7_all.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_7_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_7_default.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_7_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_7_minimum.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_7_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_7_none.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_7_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_7_recommended.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_7_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_8_all.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_8_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_8_default.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_8_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_8_minimum.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_8_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_8_none.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_8_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_8_recommended.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_8_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_9_all.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_9_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_9_default.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_9_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_9_minimum.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_9_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_9_none.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_9_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_9_recommended.globalconfig",
-        "buildTransitive/config/analysisleveldocumentation_9_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_5_all.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_5_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_5_default.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_5_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_5_minimum.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_5_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_5_none.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_5_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_5_recommended.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_5_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_6_all.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_6_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_6_default.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_6_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_6_minimum.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_6_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_6_none.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_6_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_6_recommended.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_6_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_7_all.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_7_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_7_default.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_7_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_7_minimum.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_7_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_7_none.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_7_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_7_recommended.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_7_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_8_all.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_8_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_8_default.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_8_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_8_minimum.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_8_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_8_none.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_8_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_8_recommended.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_8_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_9_all.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_9_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_9_default.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_9_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_9_minimum.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_9_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_9_none.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_9_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_9_recommended.globalconfig",
-        "buildTransitive/config/analysislevelglobalization_9_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_5_all.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_5_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_5_default.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_5_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_5_minimum.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_5_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_5_none.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_5_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_5_recommended.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_5_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_6_all.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_6_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_6_default.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_6_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_6_minimum.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_6_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_6_none.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_6_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_6_recommended.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_6_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_7_all.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_7_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_7_default.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_7_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_7_minimum.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_7_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_7_none.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_7_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_7_recommended.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_7_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_8_all.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_8_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_8_default.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_8_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_8_minimum.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_8_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_8_none.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_8_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_8_recommended.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_8_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_9_all.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_9_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_9_default.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_9_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_9_minimum.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_9_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_9_none.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_9_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_9_recommended.globalconfig",
-        "buildTransitive/config/analysislevelinteroperability_9_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_5_all.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_5_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_5_default.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_5_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_5_minimum.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_5_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_5_none.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_5_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_5_recommended.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_5_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_6_all.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_6_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_6_default.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_6_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_6_minimum.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_6_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_6_none.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_6_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_6_recommended.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_6_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_7_all.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_7_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_7_default.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_7_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_7_minimum.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_7_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_7_none.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_7_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_7_recommended.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_7_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_8_all.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_8_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_8_default.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_8_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_8_minimum.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_8_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_8_none.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_8_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_8_recommended.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_8_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_9_all.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_9_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_9_default.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_9_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_9_minimum.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_9_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_9_none.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_9_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_9_recommended.globalconfig",
-        "buildTransitive/config/analysislevelmaintainability_9_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_5_all.globalconfig",
-        "buildTransitive/config/analysislevelnaming_5_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_5_default.globalconfig",
-        "buildTransitive/config/analysislevelnaming_5_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_5_minimum.globalconfig",
-        "buildTransitive/config/analysislevelnaming_5_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_5_none.globalconfig",
-        "buildTransitive/config/analysislevelnaming_5_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_5_recommended.globalconfig",
-        "buildTransitive/config/analysislevelnaming_5_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_6_all.globalconfig",
-        "buildTransitive/config/analysislevelnaming_6_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_6_default.globalconfig",
-        "buildTransitive/config/analysislevelnaming_6_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_6_minimum.globalconfig",
-        "buildTransitive/config/analysislevelnaming_6_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_6_none.globalconfig",
-        "buildTransitive/config/analysislevelnaming_6_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_6_recommended.globalconfig",
-        "buildTransitive/config/analysislevelnaming_6_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_7_all.globalconfig",
-        "buildTransitive/config/analysislevelnaming_7_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_7_default.globalconfig",
-        "buildTransitive/config/analysislevelnaming_7_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_7_minimum.globalconfig",
-        "buildTransitive/config/analysislevelnaming_7_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_7_none.globalconfig",
-        "buildTransitive/config/analysislevelnaming_7_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_7_recommended.globalconfig",
-        "buildTransitive/config/analysislevelnaming_7_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_8_all.globalconfig",
-        "buildTransitive/config/analysislevelnaming_8_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_8_default.globalconfig",
-        "buildTransitive/config/analysislevelnaming_8_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_8_minimum.globalconfig",
-        "buildTransitive/config/analysislevelnaming_8_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_8_none.globalconfig",
-        "buildTransitive/config/analysislevelnaming_8_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_8_recommended.globalconfig",
-        "buildTransitive/config/analysislevelnaming_8_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_9_all.globalconfig",
-        "buildTransitive/config/analysislevelnaming_9_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_9_default.globalconfig",
-        "buildTransitive/config/analysislevelnaming_9_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_9_minimum.globalconfig",
-        "buildTransitive/config/analysislevelnaming_9_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_9_none.globalconfig",
-        "buildTransitive/config/analysislevelnaming_9_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelnaming_9_recommended.globalconfig",
-        "buildTransitive/config/analysislevelnaming_9_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_5_all.globalconfig",
-        "buildTransitive/config/analysislevelperformance_5_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_5_default.globalconfig",
-        "buildTransitive/config/analysislevelperformance_5_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_5_minimum.globalconfig",
-        "buildTransitive/config/analysislevelperformance_5_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_5_none.globalconfig",
-        "buildTransitive/config/analysislevelperformance_5_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_5_recommended.globalconfig",
-        "buildTransitive/config/analysislevelperformance_5_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_6_all.globalconfig",
-        "buildTransitive/config/analysislevelperformance_6_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_6_default.globalconfig",
-        "buildTransitive/config/analysislevelperformance_6_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_6_minimum.globalconfig",
-        "buildTransitive/config/analysislevelperformance_6_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_6_none.globalconfig",
-        "buildTransitive/config/analysislevelperformance_6_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_6_recommended.globalconfig",
-        "buildTransitive/config/analysislevelperformance_6_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_7_all.globalconfig",
-        "buildTransitive/config/analysislevelperformance_7_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_7_default.globalconfig",
-        "buildTransitive/config/analysislevelperformance_7_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_7_minimum.globalconfig",
-        "buildTransitive/config/analysislevelperformance_7_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_7_none.globalconfig",
-        "buildTransitive/config/analysislevelperformance_7_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_7_recommended.globalconfig",
-        "buildTransitive/config/analysislevelperformance_7_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_8_all.globalconfig",
-        "buildTransitive/config/analysislevelperformance_8_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_8_default.globalconfig",
-        "buildTransitive/config/analysislevelperformance_8_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_8_minimum.globalconfig",
-        "buildTransitive/config/analysislevelperformance_8_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_8_none.globalconfig",
-        "buildTransitive/config/analysislevelperformance_8_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_8_recommended.globalconfig",
-        "buildTransitive/config/analysislevelperformance_8_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_9_all.globalconfig",
-        "buildTransitive/config/analysislevelperformance_9_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_9_default.globalconfig",
-        "buildTransitive/config/analysislevelperformance_9_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_9_minimum.globalconfig",
-        "buildTransitive/config/analysislevelperformance_9_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_9_none.globalconfig",
-        "buildTransitive/config/analysislevelperformance_9_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelperformance_9_recommended.globalconfig",
-        "buildTransitive/config/analysislevelperformance_9_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_5_all.globalconfig",
-        "buildTransitive/config/analysislevelreliability_5_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_5_default.globalconfig",
-        "buildTransitive/config/analysislevelreliability_5_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_5_minimum.globalconfig",
-        "buildTransitive/config/analysislevelreliability_5_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_5_none.globalconfig",
-        "buildTransitive/config/analysislevelreliability_5_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_5_recommended.globalconfig",
-        "buildTransitive/config/analysislevelreliability_5_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_6_all.globalconfig",
-        "buildTransitive/config/analysislevelreliability_6_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_6_default.globalconfig",
-        "buildTransitive/config/analysislevelreliability_6_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_6_minimum.globalconfig",
-        "buildTransitive/config/analysislevelreliability_6_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_6_none.globalconfig",
-        "buildTransitive/config/analysislevelreliability_6_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_6_recommended.globalconfig",
-        "buildTransitive/config/analysislevelreliability_6_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_7_all.globalconfig",
-        "buildTransitive/config/analysislevelreliability_7_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_7_default.globalconfig",
-        "buildTransitive/config/analysislevelreliability_7_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_7_minimum.globalconfig",
-        "buildTransitive/config/analysislevelreliability_7_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_7_none.globalconfig",
-        "buildTransitive/config/analysislevelreliability_7_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_7_recommended.globalconfig",
-        "buildTransitive/config/analysislevelreliability_7_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_8_all.globalconfig",
-        "buildTransitive/config/analysislevelreliability_8_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_8_default.globalconfig",
-        "buildTransitive/config/analysislevelreliability_8_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_8_minimum.globalconfig",
-        "buildTransitive/config/analysislevelreliability_8_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_8_none.globalconfig",
-        "buildTransitive/config/analysislevelreliability_8_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_8_recommended.globalconfig",
-        "buildTransitive/config/analysislevelreliability_8_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_9_all.globalconfig",
-        "buildTransitive/config/analysislevelreliability_9_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_9_default.globalconfig",
-        "buildTransitive/config/analysislevelreliability_9_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_9_minimum.globalconfig",
-        "buildTransitive/config/analysislevelreliability_9_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_9_none.globalconfig",
-        "buildTransitive/config/analysislevelreliability_9_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelreliability_9_recommended.globalconfig",
-        "buildTransitive/config/analysislevelreliability_9_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_5_all.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_5_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_5_default.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_5_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_5_minimum.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_5_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_5_none.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_5_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_5_recommended.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_5_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_6_all.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_6_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_6_default.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_6_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_6_minimum.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_6_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_6_none.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_6_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_6_recommended.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_6_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_7_all.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_7_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_7_default.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_7_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_7_minimum.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_7_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_7_none.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_7_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_7_recommended.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_7_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_8_all.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_8_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_8_default.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_8_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_8_minimum.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_8_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_8_none.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_8_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_8_recommended.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_8_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_9_all.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_9_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_9_default.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_9_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_9_minimum.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_9_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_9_none.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_9_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_9_recommended.globalconfig",
-        "buildTransitive/config/analysislevelsecurity_9_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_5_all.globalconfig",
-        "buildTransitive/config/analysislevelusage_5_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_5_default.globalconfig",
-        "buildTransitive/config/analysislevelusage_5_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_5_minimum.globalconfig",
-        "buildTransitive/config/analysislevelusage_5_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_5_none.globalconfig",
-        "buildTransitive/config/analysislevelusage_5_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_5_recommended.globalconfig",
-        "buildTransitive/config/analysislevelusage_5_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_6_all.globalconfig",
-        "buildTransitive/config/analysislevelusage_6_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_6_default.globalconfig",
-        "buildTransitive/config/analysislevelusage_6_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_6_minimum.globalconfig",
-        "buildTransitive/config/analysislevelusage_6_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_6_none.globalconfig",
-        "buildTransitive/config/analysislevelusage_6_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_6_recommended.globalconfig",
-        "buildTransitive/config/analysislevelusage_6_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_7_all.globalconfig",
-        "buildTransitive/config/analysislevelusage_7_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_7_default.globalconfig",
-        "buildTransitive/config/analysislevelusage_7_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_7_minimum.globalconfig",
-        "buildTransitive/config/analysislevelusage_7_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_7_none.globalconfig",
-        "buildTransitive/config/analysislevelusage_7_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_7_recommended.globalconfig",
-        "buildTransitive/config/analysislevelusage_7_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_8_all.globalconfig",
-        "buildTransitive/config/analysislevelusage_8_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_8_default.globalconfig",
-        "buildTransitive/config/analysislevelusage_8_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_8_minimum.globalconfig",
-        "buildTransitive/config/analysislevelusage_8_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_8_none.globalconfig",
-        "buildTransitive/config/analysislevelusage_8_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_8_recommended.globalconfig",
-        "buildTransitive/config/analysislevelusage_8_recommended_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_9_all.globalconfig",
-        "buildTransitive/config/analysislevelusage_9_all_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_9_default.globalconfig",
-        "buildTransitive/config/analysislevelusage_9_default_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_9_minimum.globalconfig",
-        "buildTransitive/config/analysislevelusage_9_minimum_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_9_none.globalconfig",
-        "buildTransitive/config/analysislevelusage_9_none_warnaserror.globalconfig",
-        "buildTransitive/config/analysislevelusage_9_recommended.globalconfig",
-        "buildTransitive/config/analysislevelusage_9_recommended_warnaserror.globalconfig",
-        "documentation/Analyzer Configuration.md",
-        "documentation/Microsoft.CodeAnalysis.NetAnalyzers.md",
-        "documentation/Microsoft.CodeAnalysis.NetAnalyzers.sarif",
-        "documentation/readme.md",
-        "editorconfig/AllRulesDefault/.editorconfig",
-        "editorconfig/AllRulesDisabled/.editorconfig",
-        "editorconfig/AllRulesEnabled/.editorconfig",
-        "editorconfig/DataflowRulesDefault/.editorconfig",
-        "editorconfig/DataflowRulesEnabled/.editorconfig",
-        "editorconfig/DesignRulesDefault/.editorconfig",
-        "editorconfig/DesignRulesEnabled/.editorconfig",
-        "editorconfig/DocumentationRulesDefault/.editorconfig",
-        "editorconfig/DocumentationRulesEnabled/.editorconfig",
-        "editorconfig/GlobalizationRulesDefault/.editorconfig",
-        "editorconfig/GlobalizationRulesEnabled/.editorconfig",
-        "editorconfig/InteroperabilityRulesDefault/.editorconfig",
-        "editorconfig/InteroperabilityRulesEnabled/.editorconfig",
-        "editorconfig/MaintainabilityRulesDefault/.editorconfig",
-        "editorconfig/MaintainabilityRulesEnabled/.editorconfig",
-        "editorconfig/NamingRulesDefault/.editorconfig",
-        "editorconfig/NamingRulesEnabled/.editorconfig",
-        "editorconfig/PerformanceRulesDefault/.editorconfig",
-        "editorconfig/PerformanceRulesEnabled/.editorconfig",
-        "editorconfig/PortedFromFxCopRulesDefault/.editorconfig",
-        "editorconfig/PortedFromFxCopRulesEnabled/.editorconfig",
-        "editorconfig/ReliabilityRulesDefault/.editorconfig",
-        "editorconfig/ReliabilityRulesEnabled/.editorconfig",
-        "editorconfig/SecurityRulesDefault/.editorconfig",
-        "editorconfig/SecurityRulesEnabled/.editorconfig",
-        "editorconfig/UsageRulesDefault/.editorconfig",
-        "editorconfig/UsageRulesEnabled/.editorconfig",
-        "microsoft.codeanalysis.netanalyzers.8.0.0.nupkg.sha512",
-        "microsoft.codeanalysis.netanalyzers.nuspec",
-        "rulesets/AllRulesDefault.ruleset",
-        "rulesets/AllRulesDisabled.ruleset",
-        "rulesets/AllRulesEnabled.ruleset",
-        "rulesets/DataflowRulesDefault.ruleset",
-        "rulesets/DataflowRulesEnabled.ruleset",
-        "rulesets/DesignRulesDefault.ruleset",
-        "rulesets/DesignRulesEnabled.ruleset",
-        "rulesets/DocumentationRulesDefault.ruleset",
-        "rulesets/DocumentationRulesEnabled.ruleset",
-        "rulesets/GlobalizationRulesDefault.ruleset",
-        "rulesets/GlobalizationRulesEnabled.ruleset",
-        "rulesets/InteroperabilityRulesDefault.ruleset",
-        "rulesets/InteroperabilityRulesEnabled.ruleset",
-        "rulesets/MaintainabilityRulesDefault.ruleset",
-        "rulesets/MaintainabilityRulesEnabled.ruleset",
-        "rulesets/NamingRulesDefault.ruleset",
-        "rulesets/NamingRulesEnabled.ruleset",
-        "rulesets/PerformanceRulesDefault.ruleset",
-        "rulesets/PerformanceRulesEnabled.ruleset",
-        "rulesets/PortedFromFxCopRulesDefault.ruleset",
-        "rulesets/PortedFromFxCopRulesEnabled.ruleset",
-        "rulesets/ReliabilityRulesDefault.ruleset",
-        "rulesets/ReliabilityRulesEnabled.ruleset",
-        "rulesets/SecurityRulesDefault.ruleset",
-        "rulesets/SecurityRulesEnabled.ruleset",
-        "rulesets/UsageRulesDefault.ruleset",
-        "rulesets/UsageRulesEnabled.ruleset",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
-      ]
-    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -3682,29 +2846,17 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/6.0.0": {
-      "sha512": "k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+    "Microsoft.Extensions.DependencyInjection/2.0.0": {
+      "sha512": "wakg18gHYiUL1pcjjyZuYk6OvDpbSw1E7IWxm78TMepsr+gQ8W0tWzuRm0q/9RFblngwPwo15rrgZSUV51W5Iw==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "path": "microsoft.extensions.dependencyinjection/2.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
-        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
-        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
-        "microsoft.extensions.dependencyinjection.nuspec",
-        "useSharedDesignerContext.txt"
+        "microsoft.extensions.dependencyinjection.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
@@ -3732,10 +2884,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.ObjectPool/6.0.16": {
-      "sha512": "OVX5tlKg6LY+XKqlUn7i9KY+6Liut0iewWff2DNr7129i/NJ8rpUzbmxavPydZgcLREEWHklXZiPKCS895tNIQ==",
+    "Microsoft.Extensions.ObjectPool/5.0.10": {
+      "sha512": "pp9tbGqIhdEXL6Q1yJl+zevAJSq4BsxqhS1GXzBvEsEz9DDNu9GLNzgUy2xyFc4YjB4m4Ff2YEWTnvQvVYdkvQ==",
       "type": "package",
-      "path": "microsoft.extensions.objectpool/6.0.16",
+      "path": "microsoft.extensions.objectpool/5.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3743,11 +2895,11 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/Microsoft.Extensions.ObjectPool.dll",
         "lib/net461/Microsoft.Extensions.ObjectPool.xml",
-        "lib/net6.0/Microsoft.Extensions.ObjectPool.dll",
-        "lib/net6.0/Microsoft.Extensions.ObjectPool.xml",
+        "lib/net5.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net5.0/Microsoft.Extensions.ObjectPool.xml",
         "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll",
         "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.xml",
-        "microsoft.extensions.objectpool.6.0.16.nupkg.sha512",
+        "microsoft.extensions.objectpool.5.0.10.nupkg.sha512",
         "microsoft.extensions.objectpool.nuspec"
       ]
     },
@@ -3936,35 +3088,6 @@
         "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
         "microsoft.identitymodel.tokens.6.34.0.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
-      ]
-    },
-    "Microsoft.NET.StringTools/17.6.3": {
-      "sha512": "N0ZIanl1QCgvUumEL1laasU0a7sOE5ZwLZVTn0pAePnfhq8P7SvTjF8Axq+CnavuQkmdQpGNXQ1efZtu5kDFbA==",
-      "type": "package",
-      "path": "microsoft.net.stringtools/17.6.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "MSBuild-NuGet-Icon.png",
-        "README.md",
-        "lib/net472/Microsoft.NET.StringTools.dll",
-        "lib/net472/Microsoft.NET.StringTools.pdb",
-        "lib/net472/Microsoft.NET.StringTools.xml",
-        "lib/net7.0/Microsoft.NET.StringTools.dll",
-        "lib/net7.0/Microsoft.NET.StringTools.pdb",
-        "lib/net7.0/Microsoft.NET.StringTools.xml",
-        "lib/netstandard2.0/Microsoft.NET.StringTools.dll",
-        "lib/netstandard2.0/Microsoft.NET.StringTools.pdb",
-        "lib/netstandard2.0/Microsoft.NET.StringTools.xml",
-        "microsoft.net.stringtools.17.6.3.nupkg.sha512",
-        "microsoft.net.stringtools.nuspec",
-        "notices/THIRDPARTYNOTICES.txt",
-        "ref/net472/Microsoft.NET.StringTools.dll",
-        "ref/net472/Microsoft.NET.StringTools.xml",
-        "ref/net7.0/Microsoft.NET.StringTools.dll",
-        "ref/net7.0/Microsoft.NET.StringTools.xml",
-        "ref/netstandard2.0/Microsoft.NET.StringTools.dll",
-        "ref/netstandard2.0/Microsoft.NET.StringTools.xml"
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.2": {
@@ -4563,6 +3686,91 @@
         "version.txt"
       ]
     },
+    "System.Private.ServiceModel/4.10.2": {
+      "sha512": "bi2/w2EDXqxno8zfbt6vHcrpGw0Pav8tEMzmJraHwJvWYJd45wcqr7gNa2IUs91j4z+BNGMooStaWS6pm2Lq0A==",
+      "type": "package",
+      "path": "system.private.servicemodel/4.10.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/System.Private.ServiceModel.dll",
+        "lib/netstandard2.0/System.Private.ServiceModel.pdb",
+        "lib/netstandard2.0/cs/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/de/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/es/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/fr/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/it/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/ja/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/ko/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/pl/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/pt-BR/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/ru/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/tr/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/zh-Hans/System.Private.ServiceModel.resources.dll",
+        "lib/netstandard2.0/zh-Hant/System.Private.ServiceModel.resources.dll",
+        "ref/netstandard2.0/_._",
+        "system.private.servicemodel.4.10.2.nupkg.sha512",
+        "system.private.servicemodel.nuspec"
+      ]
+    },
+    "System.Reflection.DispatchProxy/4.7.1": {
+      "sha512": "C1sMLwIG6ILQ2bmOT4gh62V6oJlyF4BlHcVMrOoor49p0Ji2tA8QAoqyMcIhAdH6OHKJ8m7BU+r4LK2CUEOKqw==",
+      "type": "package",
+      "path": "system.reflection.dispatchproxy/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Reflection.DispatchProxy.dll",
+        "lib/net461/System.Reflection.DispatchProxy.xml",
+        "lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll",
+        "lib/netcoreapp2.0/System.Reflection.DispatchProxy.xml",
+        "lib/netstandard1.3/System.Reflection.DispatchProxy.dll",
+        "lib/netstandard2.0/System.Reflection.DispatchProxy.dll",
+        "lib/netstandard2.0/System.Reflection.DispatchProxy.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Reflection.DispatchProxy.dll",
+        "ref/net461/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/System.Reflection.DispatchProxy.dll",
+        "ref/netstandard1.3/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/de/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/es/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/fr/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/it/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/ja/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/ko/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/ru/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/zh-hans/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/zh-hant/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard2.0/System.Reflection.DispatchProxy.dll",
+        "ref/netstandard2.0/System.Reflection.DispatchProxy.xml",
+        "ref/uap10.0.16299/System.Reflection.DispatchProxy.dll",
+        "ref/uap10.0.16299/System.Reflection.DispatchProxy.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.DispatchProxy.dll",
+        "runtimes/win-aot/lib/uap10.0.16299/System.Reflection.DispatchProxy.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Reflection.DispatchProxy.dll",
+        "system.reflection.dispatchproxy.4.7.1.nupkg.sha512",
+        "system.reflection.dispatchproxy.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Reflection.Metadata/1.6.0": {
       "sha512": "COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "type": "package",
@@ -4998,120 +4206,195 @@
         "version.txt"
       ]
     },
-    "System.ServiceModel.Http/6.2.0": {
-      "sha512": "lMk8MEw1OCvyyKY4HMg4ro1eYtWY7azIoDc2FBEGP8uOTJouWn3DemOQvM/GUpgrFbkpjuHPbEG5hgUbNtpiYA==",
+    "System.ServiceModel.Http/4.10.2": {
+      "sha512": "1AhiJwPc+90GjBd/sDkT93RVuRj688ZQInXzWfd56AEjDzWieUcAUh9ppXhRuEVpT+x48D5GBYJc1VxDP4IT+Q==",
       "type": "package",
-      "path": "system.servicemodel.http/6.2.0",
+      "path": "system.servicemodel.http/4.10.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.ServiceModel.Http.dll",
+        "lib/net461/System.ServiceModel.Http.dll",
+        "lib/net461/System.ServiceModel.Http.pdb",
         "lib/net6.0/System.ServiceModel.Http.dll",
         "lib/net6.0/System.ServiceModel.Http.pdb",
-        "lib/net6.0/cs/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/de/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/es/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/fr/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/it/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/ja/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/ko/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/pl/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/pt-BR/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/ru/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/tr/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/zh-Hans/System.ServiceModel.Http.resources.dll",
-        "lib/net6.0/zh-Hant/System.ServiceModel.Http.resources.dll",
-        "system.servicemodel.http.6.2.0.nupkg.sha512",
+        "lib/netcore50/System.ServiceModel.Http.dll",
+        "lib/netstandard1.3/System.ServiceModel.Http.dll",
+        "lib/netstandard2.0/System.ServiceModel.Http.dll",
+        "lib/netstandard2.0/System.ServiceModel.Http.pdb",
+        "lib/portable-net45+win8+wp8/_._",
+        "lib/win8/_._",
+        "lib/wp8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.ServiceModel.Http.dll",
+        "ref/net461/System.ServiceModel.Http.dll",
+        "ref/net6.0/System.ServiceModel.Http.dll",
+        "ref/netcore50/System.ServiceModel.Http.dll",
+        "ref/netstandard1.0/System.ServiceModel.Http.dll",
+        "ref/netstandard1.1/System.ServiceModel.Http.dll",
+        "ref/netstandard1.3/System.ServiceModel.Http.dll",
+        "ref/netstandard2.0/System.ServiceModel.Http.dll",
+        "ref/portable-net45+win8+wp8/_._",
+        "ref/win8/_._",
+        "ref/wp8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.servicemodel.http.4.10.2.nupkg.sha512",
         "system.servicemodel.http.nuspec"
       ]
     },
-    "System.ServiceModel.NetFramingBase/6.2.0": {
-      "sha512": "204c9SNDKyQrDKv6F9MLlWKnM7UthRErFByJCHj8y9DtcgMAQnEB5xJvh+9ECmJgG13LJLOAMB5f3CjMatzz/A==",
+    "System.ServiceModel.NetTcp/4.6.0": {
+      "sha512": "AbQWd+nY/QG7SOtyuYAbW4e5LxF9UvFsozIT8YpCeotBNq19w884ylBYvPfysEq/CMrH6a6lY9exnqxia0FWpg==",
       "type": "package",
-      "path": "system.servicemodel.netframingbase/6.2.0",
+      "path": "system.servicemodel.nettcp/4.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net6.0/System.ServiceModel.NetFramingBase.dll",
-        "lib/net6.0/cs/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/de/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/es/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/fr/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/it/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/ja/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/ko/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/pl/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/pt-BR/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/ru/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/tr/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/zh-Hans/System.ServiceModel.NetFramingBase.resources.dll",
-        "lib/net6.0/zh-Hant/System.ServiceModel.NetFramingBase.resources.dll",
-        "system.servicemodel.netframingbase.6.2.0.nupkg.sha512",
-        "system.servicemodel.netframingbase.nuspec"
-      ]
-    },
-    "System.ServiceModel.NetTcp/6.2.0": {
-      "sha512": "FXTDhh8DgCfNyY5k9sNlqvhBVYqVM+0GZBsJfFMH5P5q7qGmTxql3bG9tae1Z+uMXJpG2jLbo1CfgusZ75lADA==",
-      "type": "package",
-      "path": "system.servicemodel.nettcp/6.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net6.0/System.ServiceModel.NetTcp.dll",
-        "lib/net6.0/System.ServiceModel.NetTcp.pdb",
-        "lib/net6.0/cs/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/de/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/es/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/fr/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/it/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/ja/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/ko/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/pl/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/pt-BR/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/ru/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/tr/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/zh-Hans/System.ServiceModel.NetTcp.resources.dll",
-        "lib/net6.0/zh-Hant/System.ServiceModel.NetTcp.resources.dll",
-        "system.servicemodel.nettcp.6.2.0.nupkg.sha512",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.ServiceModel.NetTcp.dll",
+        "lib/net461/System.ServiceModel.NetTcp.dll",
+        "lib/net461/System.ServiceModel.NetTcp.pdb",
+        "lib/netcore50/System.ServiceModel.NetTcp.dll",
+        "lib/netstandard1.3/System.ServiceModel.NetTcp.dll",
+        "lib/netstandard2.0/System.ServiceModel.NetTcp.dll",
+        "lib/netstandard2.0/System.ServiceModel.NetTcp.pdb",
+        "lib/portable-net45+win8/_._",
+        "lib/win8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.ServiceModel.NetTcp.dll",
+        "ref/net461/System.ServiceModel.NetTcp.dll",
+        "ref/netcore50/System.ServiceModel.NetTcp.dll",
+        "ref/netstandard1.1/System.ServiceModel.NetTcp.dll",
+        "ref/netstandard1.3/System.ServiceModel.NetTcp.dll",
+        "ref/netstandard2.0/System.ServiceModel.NetTcp.dll",
+        "ref/portable-net45+win8/_._",
+        "ref/win8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.servicemodel.nettcp.4.6.0.nupkg.sha512",
         "system.servicemodel.nettcp.nuspec"
       ]
     },
-    "System.ServiceModel.Primitives/6.2.0": {
-      "sha512": "ro+c4JKNuX6dDpTWh9ZICYr4pIe7uJToauPPgZt2qqFPjVB78ZDUz3rPCZX89dA+IoRZ+9T1ngLBKsgkTmx7UA==",
+    "System.ServiceModel.Primitives/4.10.2": {
+      "sha512": "8QOguIqHtWYywBt7SubPhdICE2LClHzqOMDy0LQIui4T3QJOae7g6UR+alCW61nEufYNtO8Uss41EbXqD8hdww==",
       "type": "package",
-      "path": "system.servicemodel.primitives/6.2.0",
+      "path": "system.servicemodel.primitives/4.10.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.ServiceModel.Primitives.dll",
+        "lib/net461/System.ServiceModel.Primitives.dll",
+        "lib/net461/System.ServiceModel.Primitives.pdb",
         "lib/net6.0/System.ServiceModel.Primitives.dll",
         "lib/net6.0/System.ServiceModel.Primitives.pdb",
-        "lib/net6.0/cs/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/de/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/es/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/fr/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/it/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/ja/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/ko/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/pl/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/pt-BR/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/ru/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/tr/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/zh-Hans/System.ServiceModel.Primitives.resources.dll",
-        "lib/net6.0/zh-Hant/System.ServiceModel.Primitives.resources.dll",
+        "lib/net6.0/System.ServiceModel.dll",
+        "lib/netcore50/System.ServiceModel.Primitives.dll",
+        "lib/netstandard1.3/System.ServiceModel.Primitives.dll",
+        "lib/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "lib/netstandard2.0/System.ServiceModel.Primitives.pdb",
+        "lib/netstandard2.0/System.ServiceModel.dll",
+        "lib/portable-net45+win8+wp8/_._",
+        "lib/win8/_._",
+        "lib/wp8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.ServiceModel.Primitives.dll",
+        "ref/net461/System.ServiceModel.Primitives.dll",
         "ref/net6.0/System.ServiceModel.Primitives.dll",
-        "system.servicemodel.primitives.6.2.0.nupkg.sha512",
+        "ref/net6.0/System.ServiceModel.dll",
+        "ref/netcore50/System.ServiceModel.Primitives.dll",
+        "ref/netstandard1.0/System.ServiceModel.Primitives.dll",
+        "ref/netstandard1.1/System.ServiceModel.Primitives.dll",
+        "ref/netstandard1.3/System.ServiceModel.Primitives.dll",
+        "ref/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "ref/netstandard2.0/System.ServiceModel.dll",
+        "ref/portable-net45+win8+wp8/_._",
+        "ref/win8/_._",
+        "ref/wp8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.servicemodel.primitives.4.10.2.nupkg.sha512",
         "system.servicemodel.primitives.nuspec"
+      ]
+    },
+    "System.ServiceModel.Security/4.4.4": {
+      "sha512": "8mJj3lUNbBkntouQ3Eg3IF04GxiDrDK2X79+kcfq8V+W7NoYBREgWczaD60ZmW4KKRKnL0q3OnUNJlkzJJfe5w==",
+      "type": "package",
+      "path": "system.servicemodel.security/4.4.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.ServiceModel.Security.dll",
+        "lib/netstandard1.3/System.ServiceModel.Security.dll",
+        "lib/netstandard2.0/System.ServiceModel.Security.dll",
+        "lib/portable-net45+win8+wp8/_._",
+        "lib/win8/_._",
+        "lib/wp8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.ServiceModel.Security.dll",
+        "ref/netstandard1.0/System.ServiceModel.Security.dll",
+        "ref/netstandard1.1/System.ServiceModel.Security.dll",
+        "ref/netstandard2.0/System.ServiceModel.Security.dll",
+        "ref/portable-net45+win8+wp8/_._",
+        "ref/win8/_._",
+        "ref/wp8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.servicemodel.security.4.4.4.nupkg.sha512",
+        "system.servicemodel.security.nuspec",
+        "version.txt"
       ]
     },
     "System.Text.Encoding/4.3.0": {
@@ -5345,26 +4628,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
-    "C:\\Users\\ADMIN\\Desktop\\Components\\Offline Packages": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
       "projectName": "ShopBanGiay.Module",
-      "projectPath": "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Module\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Users\\ADMIN\\Desktop\\Components\\Offline Packages",
-        "C:\\Users\\ADMIN\\Desktop\\Components\\Offline Packages"
+        "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5372,9 +4655,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\ADMIN\\Desktop\\Components\\System\\Components\\Packages": {},
-        "C:\\Users\\ADMIN\\Desktop\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5488,7 +4770,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp (>= 23.2.0) but DevExpress.ExpressApp 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp (>= 23.2.0) but DevExpress.ExpressApp 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp",
       "targetGraphs": [
         "net8.0"
@@ -5498,7 +4780,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.CodeAnalysis (>= 23.2.0) but DevExpress.ExpressApp.CodeAnalysis 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.CodeAnalysis 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.CodeAnalysis (>= 23.2.0) but DevExpress.ExpressApp.CodeAnalysis 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.CodeAnalysis 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp.CodeAnalysis",
       "targetGraphs": [
         "net8.0"
@@ -5508,7 +4790,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.ConditionalAppearance (>= 23.2.0) but DevExpress.ExpressApp.ConditionalAppearance 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.ConditionalAppearance 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.ConditionalAppearance (>= 23.2.0) but DevExpress.ExpressApp.ConditionalAppearance 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.ConditionalAppearance 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp.ConditionalAppearance",
       "targetGraphs": [
         "net8.0"
@@ -5518,7 +4800,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Dashboards (>= 23.2.0) but DevExpress.ExpressApp.Dashboards 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Dashboards 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Dashboards (>= 23.2.0) but DevExpress.ExpressApp.Dashboards 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Dashboards 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp.Dashboards",
       "targetGraphs": [
         "net8.0"
@@ -5528,7 +4810,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Objects (>= 23.2.0) but DevExpress.ExpressApp.Objects 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Objects 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Objects (>= 23.2.0) but DevExpress.ExpressApp.Objects 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Objects 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp.Objects",
       "targetGraphs": [
         "net8.0"
@@ -5538,7 +4820,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Office (>= 23.2.0) but DevExpress.ExpressApp.Office 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Office 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Office (>= 23.2.0) but DevExpress.ExpressApp.Office 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Office 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp.Office",
       "targetGraphs": [
         "net8.0"
@@ -5548,7 +4830,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.ReportsV2 (>= 23.2.0) but DevExpress.ExpressApp.ReportsV2 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.ReportsV2 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.ReportsV2 (>= 23.2.0) but DevExpress.ExpressApp.ReportsV2 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.ReportsV2 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp.ReportsV2",
       "targetGraphs": [
         "net8.0"
@@ -5558,7 +4840,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Scheduler (>= 23.2.0) but DevExpress.ExpressApp.Scheduler 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Scheduler 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Scheduler (>= 23.2.0) but DevExpress.ExpressApp.Scheduler 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Scheduler 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp.Scheduler",
       "targetGraphs": [
         "net8.0"
@@ -5568,7 +4850,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Security.Xpo (>= 23.2.0) but DevExpress.ExpressApp.Security.Xpo 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Security.Xpo 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Security.Xpo (>= 23.2.0) but DevExpress.ExpressApp.Security.Xpo 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Security.Xpo 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp.Security.Xpo",
       "targetGraphs": [
         "net8.0"
@@ -5578,7 +4860,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Validation (>= 23.2.0) but DevExpress.ExpressApp.Validation 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Validation 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Validation (>= 23.2.0) but DevExpress.ExpressApp.Validation 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Validation 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp.Validation",
       "targetGraphs": [
         "net8.0"
@@ -5588,7 +4870,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.ViewVariantsModule (>= 23.2.0) but DevExpress.ExpressApp.ViewVariantsModule 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.ViewVariantsModule 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.ViewVariantsModule (>= 23.2.0) but DevExpress.ExpressApp.ViewVariantsModule 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.ViewVariantsModule 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp.ViewVariantsModule",
       "targetGraphs": [
         "net8.0"
@@ -5598,7 +4880,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Xpo (>= 23.2.0) but DevExpress.ExpressApp.Xpo 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Xpo 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.ExpressApp.Xpo (>= 23.2.0) but DevExpress.ExpressApp.Xpo 23.2.0 was not found. An approximate best match of DevExpress.ExpressApp.Xpo 23.2.6 was resolved.",
       "libraryId": "DevExpress.ExpressApp.Xpo",
       "targetGraphs": [
         "net8.0"
@@ -5608,7 +4890,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.Persistent.Base (>= 23.2.0) but DevExpress.Persistent.Base 23.2.0 was not found. An approximate best match of DevExpress.Persistent.Base 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.Persistent.Base (>= 23.2.0) but DevExpress.Persistent.Base 23.2.0 was not found. An approximate best match of DevExpress.Persistent.Base 23.2.6 was resolved.",
       "libraryId": "DevExpress.Persistent.Base",
       "targetGraphs": [
         "net8.0"
@@ -5618,7 +4900,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ShopBanGiay.Module depends on DevExpress.Persistent.BaseImpl.Xpo (>= 23.2.0) but DevExpress.Persistent.BaseImpl.Xpo 23.2.0 was not found. An approximate best match of DevExpress.Persistent.BaseImpl.Xpo 24.1.3 was resolved.",
+      "message": "ShopBanGiay.Module depends on DevExpress.Persistent.BaseImpl.Xpo (>= 23.2.0) but DevExpress.Persistent.BaseImpl.Xpo 23.2.0 was not found. An approximate best match of DevExpress.Persistent.BaseImpl.Xpo 23.2.6 was resolved.",
       "libraryId": "DevExpress.Persistent.BaseImpl.Xpo",
       "targetGraphs": [
         "net8.0"

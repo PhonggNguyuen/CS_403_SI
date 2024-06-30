@@ -50,3 +50,16 @@ C:\Users\ADMIN\Desktop\PhonggNguyuen\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\ob
 C:\Users\ADMIN\Desktop\PhonggNguyuen\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\refint\ShopBanGiay.Module.dll
 C:\Users\ADMIN\Desktop\PhonggNguyuen\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.pdb
 C:\Users\ADMIN\Desktop\PhonggNguyuen\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ref\ShopBanGiay.Module.dll
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\bin\Debug\net8.0\ShopBanGiay.Module.deps.json
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\bin\Debug\net8.0\ShopBanGiay.Module.dll
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\bin\Debug\net8.0\ShopBanGiay.Module.pdb
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.csproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.AssemblyInfoInputs.cache
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.AssemblyInfo.cs
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.sourcelink.json
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.dll
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\refint\ShopBanGiay.Module.dll
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.pdb
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ref\ShopBanGiay.Module.dll
