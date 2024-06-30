@@ -6,6 +6,7 @@ using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
 using DevExpress.Xpo;
+using ShopBanGiay.Module.BusinessObjects;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -113,7 +114,12 @@ namespace SHOP.Module.BusinessObjects
             get { return _Ghichu; }
             set { SetPropertyValue<string>(nameof(Ghichu), ref _Ghichu, value); }
         }
-      
 
+        [DevExpress.Xpo.Aggregated, Association("SP-Detail")]
+        [XafDisplayName("Chi Tiết Sản Phẩm")]
+        public XPCollection<OrderDetails> OrderDetailss
+        {
+            get { return GetCollection<OrderDetails>(nameof(OrderDetailss)); }
+        }
     }
 }
