@@ -41,7 +41,19 @@ namespace SHOP.Module.BusinessObjects
             get { return _TenDM; }
             set { SetPropertyValue<string>(nameof(TenDanhMuc), ref _TenDM, value); }
         }
-      
-      
+        [XafDisplayName("Số Lượng Hàng")]
+        public int soHang
+        {
+            get
+            {
+                return SanPhams.Count;
+            }
+        }
+        [DevExpress.Xpo.Aggregated, Association]
+        [XafDisplayName("Sản Phẩm")]
+        public XPCollection<SanPham> SanPhams
+        {
+            get { return GetCollection<SanPham>(nameof(SanPhams)); }
+        }
     }
 }
