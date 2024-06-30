@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBanGiay.Module", "ShopBanGiay.Module\ShopBanGiay.Module.csproj", "{FDBD7BB5-0315-43DC-9A7C-6C7DB5EE68DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBanGiay.Blazor.Server", "ShopBanGiay.Blazor.Server\ShopBanGiay.Blazor.Server.csproj", "{7ED6512C-71C6-42A1-AAE2-F00E207BBA4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDBD7BB5-0315-43DC-9A7C-6C7DB5EE68DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBD7BB5-0315-43DC-9A7C-6C7DB5EE68DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBD7BB5-0315-43DC-9A7C-6C7DB5EE68DA}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{FDBD7BB5-0315-43DC-9A7C-6C7DB5EE68DA}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{FDBD7BB5-0315-43DC-9A7C-6C7DB5EE68DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBD7BB5-0315-43DC-9A7C-6C7DB5EE68DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED6512C-71C6-42A1-AAE2-F00E207BBA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED6512C-71C6-42A1-AAE2-F00E207BBA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED6512C-71C6-42A1-AAE2-F00E207BBA4C}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{7ED6512C-71C6-42A1-AAE2-F00E207BBA4C}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{7ED6512C-71C6-42A1-AAE2-F00E207BBA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED6512C-71C6-42A1-AAE2-F00E207BBA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC0727E7-747C-4EC3-A9EE-CCB383213413}
+	EndGlobalSection
+EndGlobal
