@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShopBanGiay.Module")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd29ef48858141efe1d943986f9649e2294bdadd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9feed2d17614bbf392ebd7dbc10e7b25c0dec6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShopBanGiay.Module")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShopBanGiay.Module")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.*")]
