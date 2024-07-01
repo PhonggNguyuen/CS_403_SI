@@ -79,6 +79,7 @@ namespace ShopBanGiay.Module.BusinessObjects
             get { return _Ghichu; }
             set { SetPropertyValue<string>(nameof(Ghichu), ref _Ghichu, value); }
         }
+<<<<<<< HEAD
         [DevExpress.Xpo.Aggregated, Association("kt-nhap")]
         [XafDisplayName("Phiếu Nhập")]
         public XPCollection<HDNhap> HDNhaps
@@ -90,6 +91,13 @@ namespace ShopBanGiay.Module.BusinessObjects
         public XPCollection<HDXuat> HDXuats
         {
             get { return GetCollection<HDXuat>(nameof(HDXuats)); }
+=======
+        [DevExpress.Xpo.Aggregated, Association("kt-thu")]
+        [XafDisplayName("Phiếu thu")]
+        public XPCollection<PhieuThu> Phieuthus
+        {
+            get { return GetCollection<PhieuThu>(nameof(Phieuthus)); }
+>>>>>>> e722b142af72f97aeeaf6b587b954c40c03f5785
         }
     }
 }
