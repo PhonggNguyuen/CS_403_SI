@@ -23,8 +23,8 @@ namespace ShopBanGiay.Module.BusinessObjects
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
     public class NhanVien : BaseObject
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
-      // Use CodeRush to create XPO classes and properties with a few keystrokes.
-      // https://docs.devexpress.com/CodeRushForRoslyn/118557
+        // Use CodeRush to create XPO classes and properties with a few keystrokes.
+        // https://docs.devexpress.com/CodeRushForRoslyn/118557
         public NhanVien(Session session)
             : base(session)
         {
@@ -79,8 +79,19 @@ namespace ShopBanGiay.Module.BusinessObjects
             get { return _Ghichu; }
             set { SetPropertyValue<string>(nameof(Ghichu), ref _Ghichu, value); }
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
+        [DevExpress.Xpo.Aggregated, Association("kt-chi")]
+        [XafDisplayName("Phiếu chi")]
+        public XPCollection<PhieuChi> Phieuchis
+        {
+            get { return GetCollection<PhieuChi>(nameof(Phieuchis)); }
+        }
+
+        [DevExpress.Xpo.Aggregated, Association("kt-thu")]
+        [XafDisplayName("Phiếu thu")]
+        public XPCollection<PhieuThu> Phieuthus
+        {
+            get { return GetCollection<PhieuThu>(nameof(Phieuthus)); }
+        }
         [DevExpress.Xpo.Aggregated, Association("kt-nhap")]
         [XafDisplayName("Phiếu Nhập")]
         public XPCollection<HDNhap> HDNhaps
@@ -92,23 +103,6 @@ namespace ShopBanGiay.Module.BusinessObjects
         public XPCollection<HDXuat> HDXuats
         {
             get { return GetCollection<HDXuat>(nameof(HDXuats)); }
-=======
-        [DevExpress.Xpo.Aggregated, Association("kt-thu")]
-        [XafDisplayName("Phiếu thu")]
-        public XPCollection<PhieuThu> Phieuthus
-        {
-            get { return GetCollection<PhieuThu>(nameof(Phieuthus)); }
->>>>>>> e722b142af72f97aeeaf6b587b954c40c03f5785
         }
-=======
-        [DevExpress.Xpo.Aggregated, Association("kt-chi")]
-        [XafDisplayName("Phiếu chi")]
-        public XPCollection<PhieuChi> Phieuchis
-        {
-            get { return GetCollection<PhieuChi>(nameof(Phieuchis)); }
-        }
-
-
->>>>>>> 0492b960c926b21c42e8cd1aaaa0fc018017c254
     }
 }

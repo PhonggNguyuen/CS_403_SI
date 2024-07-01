@@ -114,7 +114,6 @@ namespace SHOP.Module.BusinessObjects
             get { return _Ghichu; }
             set { SetPropertyValue<string>(nameof(Ghichu), ref _Ghichu, value); }
         }
-<<<<<<< HEAD
 
         [DevExpress.Xpo.Aggregated, Association("SP-Detail")]
         [XafDisplayName("Chi Tiết Sản Phẩm")]
@@ -134,7 +133,5 @@ namespace SHOP.Module.BusinessObjects
         {
             get { return GetCollection<HDXuatCT>(nameof(HDXuatCTs)); }
         }
-=======
->>>>>>> 0492b960c926b21c42e8cd1aaaa0fc018017c254
     }
 }
