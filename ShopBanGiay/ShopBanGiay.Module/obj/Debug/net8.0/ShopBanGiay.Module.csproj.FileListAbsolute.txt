@@ -66,3 +66,30 @@ C:\Users\DELL\OneDrive\Desktop\CNPMCS403\ShopBanGiay\ShopBanGiay.Module\obj\Debu
 C:\Users\DELL\OneDrive\Desktop\CNPMCS403\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.pdb
 C:\Users\DELL\OneDrive\Desktop\CNPMCS403\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ref\ShopBanGiay.Module.dll
 >>>>>>> de22ac74e473812d7b2e3ba16f817aa6054d8651
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\bin\Debug\net8.0\ShopBanGiay.Module.deps.json
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\bin\Debug\net8.0\ShopBanGiay.Module.dll
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\bin\Debug\net8.0\ShopBanGiay.Module.pdb
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.csproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.AssemblyInfoInputs.cache
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.AssemblyInfo.cs
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.sourcelink.json
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.dll
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\refint\ShopBanGiay.Module.dll
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.pdb
+C:\Users\DELL\OneDrive\Desktop\CS403SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ref\ShopBanGiay.Module.dll
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\bin\Debug\net8.0\ShopBanGiay.Module.deps.json
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\bin\Debug\net8.0\ShopBanGiay.Module.dll
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\bin\Debug\net8.0\ShopBanGiay.Module.pdb
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.csproj.AssemblyReference.cache
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.GeneratedMSBuildEditorConfig.editorconfig
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.AssemblyInfoInputs.cache
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.AssemblyInfo.cs
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.csproj.CoreCompileInputs.cache
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.sourcelink.json
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.dll
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\refint\ShopBanGiay.Module.dll
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ShopBanGiay.Module.pdb
+E:\Do_An_CNPM\CS_403_SI\ShopBanGiay\ShopBanGiay.Module\obj\Debug\net8.0\ref\ShopBanGiay.Module.dll
+>>>>>>> 78bb5695447be451e0cec9f8a05d4ab75b4a15be

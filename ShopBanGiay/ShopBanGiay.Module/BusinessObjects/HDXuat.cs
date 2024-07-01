@@ -15,17 +15,17 @@ using System.Text;
 namespace ShopBanGiay.Module.BusinessObjects
 {
     [DefaultClassOptions]
+    [System.ComponentModel.DisplayName("Hóa Đơn Xuất")]
     //[ImageName("BO_Contact")]
-    [System.ComponentModel.DisplayName("Phiếu Thu")]
     [DefaultProperty("SoCT")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
-    public class PhieuThu : BaseObject
+    public class HDXuat : BaseObject
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
       // Use CodeRush to create XPO classes and properties with a few keystrokes.
       // https://docs.devexpress.com/CodeRushForRoslyn/118557
-        public PhieuThu(Session session)
+        public HDXuat(Session session)
             : base(session)
         {
         }
@@ -38,18 +38,18 @@ namespace ShopBanGiay.Module.BusinessObjects
             }
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
-        private NhaCungCap _NCC;
-        [XafDisplayName("Thu Của")]
-        [Association("NCC-thu")]
-        public NhaCungCap NCC
+        private NhaCungCap _Khach;
+        [XafDisplayName("Nhà Cung Cấp")]
+        [Association("NCC-xuat")]
+        public NhaCungCap Khach
         {
-            get { return _NCC; }
-            set { SetPropertyValue<NhaCungCap>(nameof(NCC), ref _NCC, value); }
+            get { return _Khach; }
+            set { SetPropertyValue<NhaCungCap>(nameof(Khach), ref _Khach, value); }
         }
 
         private NhanVien _Ketoan;
         [XafDisplayName("Kế toán")]
-        [Association("kt-thu")]
+        [Association("kt-xuat")]
         public NhanVien Ketoan
         {
             get { return _Ketoan; }
@@ -73,13 +73,22 @@ namespace ShopBanGiay.Module.BusinessObjects
             get { return _NgayCT; }
             set { SetPropertyValue<DateTime>(nameof(NgayCT), ref _NgayCT, value); }
         }
-        private decimal _Sotien;
-        [XafDisplayName("Số tiền")]
-        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
-        public decimal Sotien
+        private string _SoHD;
+        [XafDisplayName("Số HĐ"), Size(20)]
+        public string SoHD
         {
-            get { return _Sotien; }
-            set { SetPropertyValue<decimal>(nameof(Sotien), ref _Sotien, value); }
+            get { return _SoHD; }
+            set { SetPropertyValue<string>(nameof(SoHD), ref _SoHD, value); }
+        }
+
+        private DateTime _NgayHD;
+        [XafDisplayName("Ngày HĐ")]
+        [ModelDefault("EditMask", "dd/MM/yyyy HH:mm")]
+        [ModelDefault("DisplayFormat", "{0:dd/MM/yyyy HH:mm}")]
+        public DateTime NgayHD
+        {
+            get { return _NgayHD; }
+            set { SetPropertyValue<DateTime>(nameof(NgayHD), ref _NgayHD, value); }
         }
 
         private string _Ghichu;
@@ -88,6 +97,30 @@ namespace ShopBanGiay.Module.BusinessObjects
         {
             get { return _Ghichu; }
             set { SetPropertyValue<string>(nameof(Ghichu), ref _Ghichu, value); }
+        }
+        [DevExpress.Xpo.Aggregated, Association]
+        [XafDisplayName("Hàng Xuất")]
+        public XPCollection<HDXuatCT> HDXuatCTs
+        {
+            get { return GetCollection<HDXuatCT>(nameof(HDXuatCTs)); }
+        }
+        private decimal _Tongtien;
+        [XafDisplayName("Tổng tiền"), ModelDefault("AllowEdit", "false")]
+        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
+        public decimal Tongtien
+        {
+            get { return _Tongtien; }
+            set { SetPropertyValue<decimal>(nameof(Tongtien), ref _Tongtien, value); }
+        }
+
+        public void Tinhtong()
+        {
+            decimal tong = 0;
+            foreach (HDXuatCT dong in HDXuatCTs)
+            {
+                tong += dong.Thanhtien;
+            }
+            Tongtien = tong;
         }
     }
 }

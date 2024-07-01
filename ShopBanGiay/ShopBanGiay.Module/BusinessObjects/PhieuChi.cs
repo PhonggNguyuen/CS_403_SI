@@ -16,16 +16,16 @@ namespace ShopBanGiay.Module.BusinessObjects
 {
     [DefaultClassOptions]
     //[ImageName("BO_Contact")]
-    [System.ComponentModel.DisplayName("Phiếu Thu")]
+    [System.ComponentModel.DisplayName("Phiếu Chi")]
     [DefaultProperty("SoCT")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
-    public class PhieuThu : BaseObject
+    public class PhieuChi : BaseObject
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
       // Use CodeRush to create XPO classes and properties with a few keystrokes.
       // https://docs.devexpress.com/CodeRushForRoslyn/118557
-        public PhieuThu(Session session)
+        public PhieuChi(Session session)
             : base(session)
         {
         }
@@ -39,17 +39,17 @@ namespace ShopBanGiay.Module.BusinessObjects
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
         private NhaCungCap _NCC;
-        [XafDisplayName("Thu Của")]
-        [Association("NCC-thu")]
-        public NhaCungCap NCC
+        [XafDisplayName("Nhà Cung Cấp")]
+        [Association("NCC-chi")]
+        public NhaCungCap Khach
         {
             get { return _NCC; }
-            set { SetPropertyValue<NhaCungCap>(nameof(NCC), ref _NCC, value); }
+            set { SetPropertyValue<NhaCungCap>(nameof(Khach), ref _NCC, value); }
         }
 
         private NhanVien _Ketoan;
         [XafDisplayName("Kế toán")]
-        [Association("kt-thu")]
+        [Association("kt-chi")]
         public NhanVien Ketoan
         {
             get { return _Ketoan; }
