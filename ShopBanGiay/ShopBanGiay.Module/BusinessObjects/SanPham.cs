@@ -113,7 +113,5 @@ namespace SHOP.Module.BusinessObjects
             get { return _Ghichu; }
             set { SetPropertyValue<string>(nameof(Ghichu), ref _Ghichu, value); }
         }
-      
-
     }
 }
