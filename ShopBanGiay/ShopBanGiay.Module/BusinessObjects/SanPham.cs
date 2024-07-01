@@ -6,6 +6,7 @@ using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
 using DevExpress.Xpo;
+using ShopBanGiay.Module.BusinessObjects;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -112,6 +113,25 @@ namespace SHOP.Module.BusinessObjects
         {
             get { return _Ghichu; }
             set { SetPropertyValue<string>(nameof(Ghichu), ref _Ghichu, value); }
+        }
+        [DevExpress.Xpo.Aggregated, Association("nhap")]
+        [XafDisplayName("Nhập")]
+        public XPCollection<HDNhapCT> HDNhapCTs
+        {
+            get { return GetCollection<HDNhapCT>(nameof(HDNhapCTs)); }
+        }
+        [DevExpress.Xpo.Aggregated, Association("xuat")]
+        [XafDisplayName("Xuất")]
+        public XPCollection<HDXuatCT> HDXuatCTs
+        {
+            get { return GetCollection<HDXuatCT>(nameof(HDXuatCTs)); }
+        }
+
+        [DevExpress.Xpo.Aggregated, Association("SP-Detail")]
+        [XafDisplayName("Chi Tiết Sản Phẩm")]
+        public XPCollection<OrderDetails> OrderDetailss
+        {
+            get { return GetCollection<OrderDetails>(nameof(OrderDetailss)); }
         }
     }
 }

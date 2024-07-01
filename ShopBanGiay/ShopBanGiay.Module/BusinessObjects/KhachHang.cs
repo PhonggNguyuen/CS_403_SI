@@ -15,6 +15,7 @@ using System.Text;
 namespace ShopBanGiay.Module.BusinessObjects
 {
     [DefaultClassOptions]
+<<<<<<< HEAD
     //[ImageName("BO_Contact")]
     [System.ComponentModel.DisplayName("Khách Hàng")]
     [DefaultProperty("TenKh")]
@@ -25,10 +26,18 @@ namespace ShopBanGiay.Module.BusinessObjects
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
         // Use CodeRush to create XPO classes and properties with a few keystrokes.
         // https://docs.devexpress.com/CodeRushForRoslyn/118557
+=======
+    [System.ComponentModel.DisplayName("Khách Hàng")]
+    [DefaultProperty("TenKh")]
+    [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
+    public class KhachHang : BaseObject
+    {
+>>>>>>> 8da419b3f344287931898d903e68c6d2f79e7516
         public KhachHang(Session session)
             : base(session)
         {
         }
+<<<<<<< HEAD
         public override void AfterConstruction()
         {
             base.AfterConstruction();
@@ -41,6 +50,12 @@ namespace ShopBanGiay.Module.BusinessObjects
         {
             get { return _Nhom; }
             set { SetPropertyValue<NhomKhach>(nameof(Nhom), ref _Nhom, value); }
+=======
+
+        public override void AfterConstruction()
+        {
+            base.AfterConstruction();
+>>>>>>> 8da419b3f344287931898d903e68c6d2f79e7516
         }
 
         private string _TenKh;
@@ -48,7 +63,11 @@ namespace ShopBanGiay.Module.BusinessObjects
         public string TenKh
         {
             get { return _TenKh; }
+<<<<<<< HEAD
             set { SetPropertyValue<string>(nameof(TenKh), ref _TenKh, value); }
+=======
+            set { SetPropertyValue(nameof(TenKh), ref _TenKh, value); }
+>>>>>>> 8da419b3f344287931898d903e68c6d2f79e7516
         }
 
         private string _Diachi;
@@ -56,6 +75,7 @@ namespace ShopBanGiay.Module.BusinessObjects
         public string Diachi
         {
             get { return _Diachi; }
+<<<<<<< HEAD
             set { SetPropertyValue<string>(nameof(Diachi), ref _Diachi, value); }
         }
 
@@ -66,11 +86,25 @@ namespace ShopBanGiay.Module.BusinessObjects
             get { return _Dienthoai; }
             set { SetPropertyValue<string>(nameof(Dienthoai), ref _Dienthoai, value); }
         }
+=======
+            set { SetPropertyValue(nameof(Diachi), ref _Diachi, value); }
+        }
+
+        private string _Dienthoai;
+        [XafDisplayName("Số Điện Thoại"), Size(20)]
+        public string Dienthoai
+        {
+            get { return _Dienthoai; }
+            set { SetPropertyValue(nameof(Dienthoai), ref _Dienthoai, value); }
+        }
+
+>>>>>>> 8da419b3f344287931898d903e68c6d2f79e7516
         private string _Email;
         [XafDisplayName("Email"), Size(255)]
         public string Email
         {
             get { return _Email; }
+<<<<<<< HEAD
             set { SetPropertyValue<string>(nameof(Email), ref _Email, value); }
         }
 
@@ -91,5 +125,24 @@ namespace ShopBanGiay.Module.BusinessObjects
         
     
        
+=======
+            set { SetPropertyValue(nameof(Email), ref _Email, value); }
+        }
+
+        private string _Ghichu;
+        [XafDisplayName("Ghi Chú"), Size(255)]
+        public string Ghichu
+        {
+            get { return _Ghichu; }
+            set { SetPropertyValue(nameof(Ghichu), ref _Ghichu, value); }
+        }
+
+        [DevExpress.Xpo.Aggregated, Association("khach-order")]
+        [XafDisplayName("Đơn Hàng")]
+        public XPCollection<Orders> Orders
+        {
+            get { return GetCollection<Orders>(nameof(Orders)); }
+        }
+>>>>>>> 8da419b3f344287931898d903e68c6d2f79e7516
     }
 }

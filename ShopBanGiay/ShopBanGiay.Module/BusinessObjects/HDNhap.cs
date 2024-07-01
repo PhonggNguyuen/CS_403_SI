@@ -15,17 +15,12 @@ using System.Text;
 namespace ShopBanGiay.Module.BusinessObjects
 {
     [DefaultClassOptions]
-    //[ImageName("BO_Contact")]
-    [System.ComponentModel.DisplayName("Phiếu Thu")]
+    [System.ComponentModel.DisplayName("Hóa Đơn Nhập")]
     [DefaultProperty("SoCT")]
     [DefaultListViewOptions(MasterDetailMode.ListViewOnly, true, NewItemRowPosition.Top)]
-    //[Persistent("DatabaseTableName")]
-    // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
-    public class PhieuThu : BaseObject
-    { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
-        // Use CodeRush to create XPO classes and properties with a few keystrokes.
-        // https://docs.devexpress.com/CodeRushForRoslyn/118557
-        public PhieuThu(Session session)
+    public class HDNhap : BaseObject
+    {
+        public HDNhap(Session session)
             : base(session)
         {
         }
@@ -36,30 +31,25 @@ namespace ShopBanGiay.Module.BusinessObjects
             {
                 NgayCT = DateTime.Now;
             }
-            // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
-<<<<<<< HEAD
-        private KhachHang _Khach;
-        [XafDisplayName("Thu Của")]
-        [Association("khach-thu")]
-        public KhachHang Khach
+        protected override void OnSaving()
+        {
+            base.OnSaving();
+            Tinhtong();
+        }
+
+        private NhaCungCap _Khach;
+        [XafDisplayName("Nhà Cung Cấp")]
+        [Association("NCC-nhap")]
+        public NhaCungCap Khach
         {
             get { return _Khach; }
-            set { SetPropertyValue<KhachHang>(nameof(Khach), ref _Khach, value); }
-=======
-        private NhaCungCap _NCC;
-        [XafDisplayName("Thu Của")]
-        [Association("NCC-thu")]
-        public NhaCungCap NCC
-        {
-            get { return _NCC; }
-            set { SetPropertyValue<NhaCungCap>(nameof(NCC), ref _NCC, value); }
->>>>>>> 8da419b3f344287931898d903e68c6d2f79e7516
+            set { SetPropertyValue<NhaCungCap>(nameof(Khach), ref _Khach, value); }
         }
 
         private NhanVien _Ketoan;
         [XafDisplayName("Kế toán")]
-        [Association("kt-thu")]
+        [Association("kt-nhap")]
         public NhanVien Ketoan
         {
             get { return _Ketoan; }
@@ -83,16 +73,23 @@ namespace ShopBanGiay.Module.BusinessObjects
             get { return _NgayCT; }
             set { SetPropertyValue<DateTime>(nameof(NgayCT), ref _NgayCT, value); }
         }
-        private decimal _Sotien;
-        [XafDisplayName("Số tiền")]
-<<<<<<< HEAD
-=======
-        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
->>>>>>> 8da419b3f344287931898d903e68c6d2f79e7516
-        public decimal Sotien
+
+        private string _SoHD;
+        [XafDisplayName("Số HĐ"), Size(20)]
+        public string SoHD
         {
-            get { return _Sotien; }
-            set { SetPropertyValue<decimal>(nameof(Sotien), ref _Sotien, value); }
+            get { return _SoHD; }
+            set { SetPropertyValue<string>(nameof(SoHD), ref _SoHD, value); }
+        }
+
+        private DateTime _NgayHD;
+        [XafDisplayName("Ngày HĐ")]
+        [ModelDefault("EditMask", "dd/MM/yyyy HH:mm")]
+        [ModelDefault("DisplayFormat", "{0:dd/MM/yyyy HH:mm}")]
+        public DateTime NgayHD
+        {
+            get { return _NgayHD; }
+            set { SetPropertyValue<DateTime>(nameof(NgayHD), ref _NgayHD, value); }
         }
 
         private string _Ghichu;
@@ -101,6 +98,32 @@ namespace ShopBanGiay.Module.BusinessObjects
         {
             get { return _Ghichu; }
             set { SetPropertyValue<string>(nameof(Ghichu), ref _Ghichu, value); }
+        }
+
+        [DevExpress.Xpo.Aggregated, Association("HDNhap-HDNhapCTs")]
+        [XafDisplayName("Hàng nhập")]
+        public XPCollection<HDNhapCT> HDNhapCTs
+        {
+            get { return GetCollection<HDNhapCT>(nameof(HDNhapCTs)); }
+        }
+
+        private decimal _Tongtien;
+        [XafDisplayName("Tổng tiền"), ModelDefault("AllowEdit", "false")]
+        [ModelDefault("DisplayFormat", "{0:### ### ###}")]
+        public decimal Tongtien
+        {
+            get { return _Tongtien; }
+            set { SetPropertyValue<decimal>(nameof(Tongtien), ref _Tongtien, value); }
+        }
+
+        public void Tinhtong()
+        {
+            decimal tong = 0;
+            foreach (HDNhapCT dong in HDNhapCTs)
+            {
+                tong += dong.Thanhtien;
+            }
+            Tongtien = tong;
         }
     }
 }

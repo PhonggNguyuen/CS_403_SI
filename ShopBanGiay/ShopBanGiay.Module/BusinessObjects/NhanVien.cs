@@ -23,8 +23,8 @@ namespace ShopBanGiay.Module.BusinessObjects
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
     public class NhanVien : BaseObject
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
-      // Use CodeRush to create XPO classes and properties with a few keystrokes.
-      // https://docs.devexpress.com/CodeRushForRoslyn/118557
+        // Use CodeRush to create XPO classes and properties with a few keystrokes.
+        // https://docs.devexpress.com/CodeRushForRoslyn/118557
         public NhanVien(Session session)
             : base(session)
         {
@@ -85,12 +85,31 @@ namespace ShopBanGiay.Module.BusinessObjects
         {
             get { return GetCollection<PhieuChi>(nameof(Phieuchis)); }
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8da419b3f344287931898d903e68c6d2f79e7516
         [DevExpress.Xpo.Aggregated, Association("kt-thu")]
         [XafDisplayName("Phiếu thu")]
         public XPCollection<PhieuThu> Phieuthus
         {
             get { return GetCollection<PhieuThu>(nameof(Phieuthus)); }
         }
+<<<<<<< HEAD
 
+=======
+        [DevExpress.Xpo.Aggregated, Association("kt-nhap")]
+        [XafDisplayName("Phiếu Nhập")]
+        public XPCollection<HDNhap> HDNhaps
+        {
+            get { return GetCollection<HDNhap>(nameof(HDNhaps)); }
+        }
+        [DevExpress.Xpo.Aggregated, Association("kt-xuat")]
+        [XafDisplayName("Phiếu Xuất")]
+        public XPCollection<HDXuat> HDXuats
+        {
+            get { return GetCollection<HDXuat>(nameof(HDXuats)); }
+        }
+>>>>>>> 8da419b3f344287931898d903e68c6d2f79e7516
     }
 }
