@@ -25,8 +25,8 @@ namespace ShopBanGiay.Module.BusinessObjects
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
     public class HDXuatCT : BaseObject
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
-      // Use CodeRush to create XPO classes and properties with a few keystrokes.
-      // https://docs.devexpress.com/CodeRushForRoslyn/118557
+        // Use CodeRush to create XPO classes and properties with a few keystrokes.
+        // https://docs.devexpress.com/CodeRushForRoslyn/118557
         public HDXuatCT(Session session)
             : base(session)
         {

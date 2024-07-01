@@ -76,24 +76,7 @@ namespace ShopBanGiay.Module.BusinessObjects
             get { return _Ghichu; }
             set { SetPropertyValue<string>(nameof(Ghichu), ref _Ghichu, value); }
         }
-        [DevExpress.Xpo.Aggregated, Association("NCC-nhap")]
-        [XafDisplayName("Phiếu nhập")]
-        public XPCollection<HDNhap> HDNhaps
-        {
-            get { return GetCollection<HDNhap>(nameof(HDNhaps)); }
-        }
-        [DevExpress.Xpo.Aggregated, Association("NCC-xuat")]
-        [XafDisplayName("Phiếu xuất")]
-        public XPCollection<HDXuat> HDXuats
-        {
-            get { return GetCollection<HDXuat>(nameof(HDXuats)); }
-        }
-        [DevExpress.Xpo.Aggregated, Association("NCC-thu")]
-        [XafDisplayName("Phiếu Thu")]
-        public XPCollection<PhieuThu> Phieuthus
-        {
-            get { return GetCollection<PhieuThu>(nameof(Phieuthus)); }
-        }
+
         [DevExpress.Xpo.Aggregated, Association("NCC-chi")]
         [XafDisplayName("Phiếu chi")]
         public XPCollection<PhieuChi> Phieuchis
@@ -101,6 +84,25 @@ namespace ShopBanGiay.Module.BusinessObjects
             get { return GetCollection<PhieuChi>(nameof(Phieuchis)); }
         }
 
-    }
+        [DevExpress.Xpo.Aggregated, Association("NCC-thu")]
+        [XafDisplayName("Phiếu Thu")]
+        public XPCollection<PhieuThu> Phieuthus
+        {
+            get { return GetCollection<PhieuThu>(nameof(Phieuthus)); }
+        }
 
+        [DevExpress.Xpo.Aggregated, Association("NCC-nhap")]
+        [XafDisplayName("Phiếu nhập")]
+        public XPCollection<HDNhap> HDNhaps
+        {
+            get { return GetCollection<HDNhap>(nameof(HDNhaps)); }
+        }
+
+        [DevExpress.Xpo.Aggregated, Association("NCC-xuat")]
+        [XafDisplayName("Phiếu xuất")]
+        public XPCollection<HDXuat> HDXuats
+        {
+            get { return GetCollection<HDXuat>(nameof(HDXuats)); }
+        }
+    }
 }
