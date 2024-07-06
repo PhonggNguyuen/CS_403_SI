@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Do_An_CNPM\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj": {}
+    "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj": {}
   },
   "projects": {
-    "E:\\Do_An_CNPM\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj": {
+    "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Do_An_CNPM\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
         "projectName": "ShopBanGiay.Module",
-        "projectPath": "E:\\Do_An_CNPM\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\Do_An_CNPM\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\CNPM\\Components\\Offline Packages"
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +27,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "E:\\CNPM\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -132,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -39,7 +39,7 @@ namespace ShopBanGiay.Module.BusinessObjects
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
         private NhaCungCap _NCC;
-        [XafDisplayName("Nhà Cung Cấp")]
+        [XafDisplayName("Chi Cho Ai")]
         [Association("NCC-chi")]
         public NhaCungCap Khach
         {
