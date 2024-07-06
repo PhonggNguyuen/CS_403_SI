@@ -1,7 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
   <NavigationItems NavigationStyle="Accordion">
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="ApplicationUser_ListView" Index="0" />
+          <Item Id="PermissionPolicyRole_ListView" Index="1" />
+          <Item Id="NhanVien_ListView" Index="2" />
+          <Item Id="Event_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
   </NavigationItems>
-  <Views DefaultListEditor="DevExpress.ExpressApp.Blazor.Editors.DxGridListEditor">
-  </Views>
+  <SchemaModules>
+    <SchemaModule Name="SchedulerModuleBase" Version="23.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="23.2.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views DefaultListEditor="DevExpress.ExpressApp.Blazor.Editors.DxGridListEditor" />
 </Application>

@@ -59,6 +59,17 @@ namespace SHOP.Module.BusinessObjects
             get { return _TenSP; }
             set { SetPropertyValue<string>(nameof(TenSP), ref _TenSP, value); }
         }
+        [Delayed(true), VisibleInListView(true)]
+        [ImageEditor(ListViewImageEditorMode = ImageEditorMode.PopupPictureEdit,
+DetailViewImageEditorMode = ImageEditorMode.PictureEdit, DetailViewImageEditorFixedHeight = 340, DetailViewImageEditorFixedWidth = 227,
+ListViewImageEditorCustomHeight = 40)]
+        [XafDisplayName("Ảnh")]
+        public byte[] AnhSP
+        {
+            get { return GetDelayedPropertyValue<byte[]>(nameof(AnhSP)); }
+            set { SetDelayedPropertyValue(nameof(AnhSP), value); }
+        }
+
         private string _Dvt;
         [XafDisplayName("Dvt"), Size(10)]
         public string Dvt

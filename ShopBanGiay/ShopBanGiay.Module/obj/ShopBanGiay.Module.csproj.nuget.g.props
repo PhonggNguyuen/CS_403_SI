@@ -5,19 +5,30 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+<<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ADMIN\.nuget\packages\;C:\Users\ADMIN\Desktop\Components\Offline Packages;C:\Users\ADMIN\Desktop\Components\Offline Packages</NuGetPackageFolders>
+=======
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\DELL\.nuget\packages\;C:\Program Files\DevExpress 23.2\Components\Offline Packages;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+>>>>>>> 7ccef81ec775f546983a7583a173ad9fa2abbbfd
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.10.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
     <SourceRoot Include="C:\Users\ADMIN\.nuget\packages\" />
     <SourceRoot Include="C:\Users\ADMIN\Desktop\Components\Offline Packages\" />
     <SourceRoot Include="C:\Users\ADMIN\Desktop\Components\Offline Packages\" />
+=======
+    <SourceRoot Include="C:\Users\DELL\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files\DevExpress 23.2\Components\Offline Packages\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
+>>>>>>> 7ccef81ec775f546983a7583a173ad9fa2abbbfd
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.netanalyzers\8.0.0\buildTransitive\Microsoft.CodeAnalysis.NetAnalyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.netanalyzers\8.0.0\buildTransitive\Microsoft.CodeAnalysis.NetAnalyzers.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
     <PkgMicrosoft_CodeAnalysis_NetAnalyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_NetAnalyzers)' == '' ">C:\Users\ADMIN\.nuget\packages\microsoft.codeanalysis.netanalyzers\8.0.0</PkgMicrosoft_CodeAnalysis_NetAnalyzers>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\ADMIN\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">C:\Users\ADMIN\Desktop\Components\Offline Packages\devexpress.data\24.1.3</PkgDevExpress_Data>
@@ -25,5 +36,13 @@
     <PkgDevExpress_DataAccess Condition=" '$(PkgDevExpress_DataAccess)' == '' ">C:\Users\ADMIN\Desktop\Components\Offline Packages\devexpress.dataaccess\24.1.3</PkgDevExpress_DataAccess>
     <PkgDevExpress_ExpressApp Condition=" '$(PkgDevExpress_ExpressApp)' == '' ">C:\Users\ADMIN\Desktop\Components\Offline Packages\devexpress.expressapp\24.1.3</PkgDevExpress_ExpressApp>
     <PkgDevExpress_ExpressApp_CodeAnalysis Condition=" '$(PkgDevExpress_ExpressApp_CodeAnalysis)' == '' ">C:\Users\ADMIN\Desktop\Components\Offline Packages\devexpress.expressapp.codeanalysis\24.1.3</PkgDevExpress_ExpressApp_CodeAnalysis>
+=======
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\DELL\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">C:\Program Files\DevExpress 23.2\Components\Offline Packages\devexpress.data\23.2.6</PkgDevExpress_Data>
+    <PkgDevExpress_Xpo Condition=" '$(PkgDevExpress_Xpo)' == '' ">C:\Program Files\DevExpress 23.2\Components\Offline Packages\devexpress.xpo\23.2.6</PkgDevExpress_Xpo>
+    <PkgDevExpress_DataAccess Condition=" '$(PkgDevExpress_DataAccess)' == '' ">C:\Program Files\DevExpress 23.2\Components\Offline Packages\devexpress.dataaccess\23.2.6</PkgDevExpress_DataAccess>
+    <PkgDevExpress_ExpressApp Condition=" '$(PkgDevExpress_ExpressApp)' == '' ">C:\Program Files\DevExpress 23.2\Components\Offline Packages\devexpress.expressapp\23.2.6</PkgDevExpress_ExpressApp>
+    <PkgDevExpress_ExpressApp_CodeAnalysis Condition=" '$(PkgDevExpress_ExpressApp_CodeAnalysis)' == '' ">C:\Program Files\DevExpress 23.2\Components\Offline Packages\devexpress.expressapp.codeanalysis\23.2.6</PkgDevExpress_ExpressApp_CodeAnalysis>
+>>>>>>> 7ccef81ec775f546983a7583a173ad9fa2abbbfd
   </PropertyGroup>
 </Project>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="HoaDonBanHang_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="Customer" PropertyName="Customer" />
+        <PropertyEditor Id="Customer.Diachi" PropertyName="Customer.Diachi" />
+        <PropertyEditor Id="Customer.Dienthoai" PropertyName="Customer.Dienthoai" />
+        <PropertyEditor Id="Customer.Email" PropertyName="Customer.Email" />
+        <PropertyEditor Id="Customer.TenKh" PropertyName="Customer.TenKh" />
+        <PropertyEditor Id="InvoiceDetails" PropertyName="InvoiceDetails" View="HoaDonBanHang_InvoiceDetails_ListView" />
+      </Items>
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="HoaDonBanHang" RelativeSize="100">
+              <LayoutItem Id="InvoiceNumber" RelativeSize="4.594594594594595" />
+              <LayoutItem Id="InvoiceDate" RelativeSize="3.5135135135135136" />
+              <LayoutItem Id="Customer.TenKh" ViewItem="Customer.TenKh" Index="2" RelativeSize="3.5135135135135136" />
+              <LayoutItem Id="Customer.Diachi" ViewItem="Customer.Diachi" Index="3" RelativeSize="3.5135135135135136" />
+              <LayoutItem Id="Customer.Dienthoai" ViewItem="Customer.Dienthoai" Index="4" RelativeSize="3.5135135135135136" />
+              <LayoutItem Id="InvoiceDetails" ViewItem="InvoiceDetails" Index="5" RelativeSize="76.75675675675676" />
+              <LayoutItem Id="TotalAmount" Index="6" RelativeSize="4.594594594594595" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="KhachHang_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="KhachHang">
+              <LayoutGroup Id="KhachHang_col2">
+                <LayoutItem Id="Nhom" ViewItem="Nhom" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="PhieuThu_DetailView">
+      <Layout Id="Layout">
+        <LayoutItem Id="Khach" ViewItem="Khach" />
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

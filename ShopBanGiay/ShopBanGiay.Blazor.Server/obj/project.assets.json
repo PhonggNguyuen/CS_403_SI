@@ -7916,12 +7916,19 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
     "C:\\Users\\ADMIN\\Desktop\\Components\\Offline Packages": {}
+=======
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+>>>>>>> 7ccef81ec775f546983a7583a173ad9fa2abbbfd
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Blazor.Server\\ShopBanGiay.Blazor.Server.csproj",
       "projectName": "ShopBanGiay.Blazor.Server",
       "projectPath": "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Blazor.Server\\ShopBanGiay.Blazor.Server.csproj",
@@ -7934,6 +7941,20 @@
       ],
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Blazor.Server\\ShopBanGiay.Blazor.Server.csproj",
+      "projectName": "ShopBanGiay.Blazor.Server",
+      "projectPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Blazor.Server\\ShopBanGiay.Blazor.Server.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Blazor.Server\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 7ccef81ec775f546983a7583a173ad9fa2abbbfd
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -7943,17 +7964,26 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+<<<<<<< HEAD
         "C:\\Users\\ADMIN\\Desktop\\Components\\System\\Components\\Packages": {},
         "C:\\Users\\ADMIN\\Desktop\\Components\\System\\Components\\Packages": {},
+=======
+>>>>>>> 7ccef81ec775f546983a7583a173ad9fa2abbbfd
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj": {
               "projectPath": "C:\\Users\\ADMIN\\Desktop\\PhonggNguyuen\\CS_403_SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj"
+=======
+            "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj": {
+              "projectPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\CS403SI\\ShopBanGiay\\ShopBanGiay.Module\\ShopBanGiay.Module.csproj"
+>>>>>>> 7ccef81ec775f546983a7583a173ad9fa2abbbfd
             }
           }
         }
